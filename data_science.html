@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Курс “Data Science”</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="my_styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/LMBE-courses/"> </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">О курсах</a></li>
+        <li><a href="advanced_r.html">Advanced R</a></li>
+	<li><a href="data_science.html">Data Science</a></li>
+	<li><a href="LMBE_online.html">Наш онлайн</a></li>
+	<li><a href="events.html">События</a></li>
+	<li><a href="analysis.html">Разбор полетов</a></li>
+        <li class="dropdown">
+          <a href="appendix" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Полезности<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+             <li><a href="supplement.html">Дополнительные материалы</a></li>
+             <li><a href="resources.html">Ссылки и ресурсы</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Курс “Data Science”</h1>
+
+</div>
+
+
+<div id="часть-1.-первые-шаги" class="section level1">
+<h1><strong>Часть 1.</strong> Первые шаги</h1>
+<div id="что-надо-сделать-в-первую-очередь" class="section level2">
+<h2>Что надо сделать в первую очередь</h2>
+<p>Поскольку все находятся на разных уровнях своего онтогенеза, то тем, кто вообще еще ничего не знает, предлагается пройти курс молодого бойца, освоив материалы следующей презентации. Бойцам менее молодым тоже рекомендуется просмотреть материалы этой презентации.</p>
+<p><a href="https://varmara.github.io/linmodr/01_intro_to_r.html" class="uri">https://varmara.github.io/linmodr/01_intro_to_r.html</a></p>
+<p>Перед тем, как ее проходить надо будет установить себе на компьютер две программы:</p>
+<ol style="list-style-type: decimal">
+<li>Собственно <strong>язык R</strong> <a href="https://cran.r-project.org/bin/windows/base/" class="uri">https://cran.r-project.org/bin/windows/base/</a></li>
+<li>Среду <strong>Rstudio</strong>, которая существенно облегчает и ускоряет работу с R. <a href="https://www.rstudio.com/products/rstudio/download/" class="uri">https://www.rstudio.com/products/rstudio/download/</a></li>
+</ol>
+</div>
+</div>
+<div id="часть-2.-учимся-работать-с-простейшими-кодами" class="section level1">
+<h1><strong>Часть 2.</strong> Учимся работать с простейшими кодами</h1>
+<p>Ниже вы найдете код, который мы написали в предыдущем занятии.</p>
+<p>Теперь мы знаем как присваивать значения переменным, как написать пользовательскую функцию, что такое векторы и как проводится обращение к элементам векторов.</p>
+<p><a href="Data_science/My_firs_steps/my_first_script.R">Вот код</a></p>
+<p><strong>Домашнее задание</strong></p>
+<p>Часть 1. Мы решили, что команда R_азруштелей легенд в этом году займется выяснением зависят ли оценки учащихся от погодных условий. Поэтому, используя данные электронных дневников как можно большего количества своих одноклассников (за прошлые года и можно за этот год) создайте базу данных, которая включала бы следующие поля: Дата, предмет, оценка, класс, Имя ученика (можно номер вместо учеников номера). Чем больше людей будет отраженно в базе, тем надежнее будут выводы. Свои базы данных в экселевском формате присылайте мне по почте до вечера вторника 12 февраля.</p>
+<p>Часть 2. Поставьте себе следующие пакеты. MASS, ggplot2, car, ISwR, dplyr. Про то как ставить пакеты разберитесь самостоятельно.</p>
+</div>
+<div id="часть-3.-визуализация-данных" class="section level1">
+<h1><strong>Часть 3.</strong> Визуализация данных</h1>
+<p>Вот код который мы породили на занятии</p>
+<p><a href="Data_science/My_firs_steps/my_first_script.R">Вот код</a></p>
+<p><strong>Домашнее задание</strong> 1. Доработать код так, чтобы он цветом отражал вес матери от желтого (минимум) до красного (максимум).<br />
+2. Убрать легенду с графика совсем.<br />
+4. Марина добивает базу по оценкам.<br />
+5. Все остальные ищут данные по метеоусловиям за сентябрь-декабрь 2018 (совет: загляниет на rp5). На основе этих данных создаете базу данных по погодным условиям.</p>
+</div>
+<div id="часть-4.-визуализация-данных-с-простейшей-статистической-обработкой" class="section level1">
+<h1><strong>Часть 4.</strong> Визуализация данных с простейшей статистической обработкой</h1>
+<p>Марина молодец! Она добила базу данных для нашего проекта Rазрушителей легенд. Скачайте файл. Дорабатывать будем вместе.</p>
+<p><a href="Data_science/My_firs_steps/data/credits.xlsx">Вот файл</a></p>
+<p><strong>Домашнее задание от 6.03.2019</strong> Используя данные из базы данных по оценкам, которая находится в <a href="Data_science/My_firs_steps/data/credits.xlsx">этом файле</a>, нужно будет создать два файла в формате CSV. Первый файл с оценкам за сентябрь, второй – с оценками за октябрь. В коде, который мы создали лежит пример визуализации оценок за сентябрь с помощью бокс-плотов. Нужно будет построить похожий график, но так, чтобы данные за сентябрь и за октябрь находились на одном рисунке на двух разных фасетках. <a href="Data_science/My_firs_steps/my_first_script.R">Вот код который мы написали</a>.</p>
+</div>
+<div id="часть-5.-учимся-манипулировать-данными" class="section level1">
+<h1><strong>Часть 5.</strong> Учимся манипулировать данными</h1>
+<p>Будем изучать методы фильтрации и соединения разнородных данных.</p>
+<p>Для работы надо будет скачать данные по гендерной принадлежности изчаемой группы учеников.</p>
+<p><a href="Data_science/My_firs_steps/data/gender.csv">Вот эти данные</a>.</p>
+<p>Кроме того, я сам за вас (вот нехорошие…) скачал данные по погоде в СПб за интересующий нас срок.</p>
+<p><a href="Data_science/My_firs_steps/data/weather.xls">Вот эти данные</a>.</p>
+</div>
+<div id="часть-6.-учимся-оценивать-параметры-генеральной-совокупности-по-выборкам" class="section level1">
+<h1><strong>Часть 6.</strong> Учимся оценивать параметры генеральной совокупности по выборкам</h1>
+<p><a href="Data_science/My_firs_steps/my_first_script.R">Вот код который мы написали на прошлом занятии</a>.</p>
+<p>Теперь мы знаем, что если величина в генеральной совокупности подчиняется нормальному распределению, то есть только два параметра, которые надо знать, чтобы понять все про эту генеральную совокупность: среднее значение и дисперсия. Но они нам неизвестны и мы используем выборки небольшого объема для их оценки. По выборке мы вычислем: - Среднее выборочное. - Стандартное отклонение. - Стандартную ошибку среднего.</p>
+<p>Для того, чтобы пощупать своими руками то, что эти выборочные показатели означают, вам предлагается решить следующую задачку.</p>
+<div id="домашнее-задание-на-среду" class="section level2">
+<h2>Домашнее задание на среду</h2>
+<p>Как известно, созданием разумных существ в Средиземье занимались все, кому не лень. Да и сама по себе эволюция там за четыре эпохи как-никак шла… Короче, решил Эру Илуватар наконец разобраться сколько всего рас обитает в некогда созданной им Арде. И заслал он своего верного майар Пенальда Серобуромалинового в Средиземье и велел ему разобраться в вопросе и предоставить технический отчет. Долго бродил Пенальд по просторам континента и у всех существ, с которыми он имел дело, он измерял их рост и длину ушей. Все это он добросовестно свел в <a href="Data_science/My_firs_steps/data/arda.csv">csv-файл</a>. Помогите Пенальду ответить на следующие вопросы: 1.Сколько всего рас обтитает в Средиземье. 2.Какие именно значения параметров имели ввиду создатели тех или иных рас, когда творили свих питомцев.</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
