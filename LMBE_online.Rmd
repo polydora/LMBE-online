@@ -7,15 +7,55 @@ description: Материалы онлайн занятий, подготовл�
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 18px;
+  }
+td {  /* Table  */
+  font-size: 18px;
+}
+h1.title {
+  font-size: 60px;
+  color: DarkRed;
+}
+h1 { /* Header 1 */
+  font-size: 60px;
+  color: black;
+}
+h2 { /* Header 2 */
+    font-size: 40px;
+  color: black;
+}
+h3 { /* Header 3 */
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+
+
+<span style="color:red"> 
+**Внимание!** Нажимая на ссылку **"Видео"**, вы скачиваете очень большой файл. 
+</span>.
+
+
 ## Зоология беспозвоночных первый год обучения (ведущий В. М. Хайтов)
 
-[Сосальщики (Trematoda)](Presentations/VM_1st_year/Trematoda_VM.pptx) 
++ [Сосальщики (Trematoda)](Presentations/VM_1st_year/Trematoda_VM.pptx) 
 
-[Ленточные черви (Cestoda)](Presentations/VM_1st_year/Cestoda_VM.pptx) [**Видео**](https://drive.google.com/open?id=1nW0zdI-MbpUvRV_6Q3P0ZravdSxv1kYf)
++ [Ленточные черви (Cestoda)](Presentations/VM_1st_year/Cestoda_VM.pptx) [**Видео**](https://drive.google.com/open?id=1nW0zdI-MbpUvRV_6Q3P0ZravdSxv1kYf)
 
-[Мелкие группы плоских червей (Aspidogastrea, Monogenoidea, "Cestodaria")](Presentations/VM_1st_year/Aspidogastrea Monogenea Cestodaria_VM.pptx) [**Видео**](https://drive.google.com/open?id=1_bxNBKGTocYFl1ZXulYaMl6_c9RR3gJ6)
++ [Мелкие группы плоских червей (Aspidogastrea, Monogenoidea, "Cestodaria")](Presentations/VM_1st_year/Aspidogastrea Monogenea Cestodaria_VM.pptx) [**Видео**](https://drive.google.com/open?id=1_bxNBKGTocYFl1ZXulYaMl6_c9RR3gJ6)
 
-[Планы строения животных: Эволюцилнная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx)
++ [Планы строения животных: Эволюцилнная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx)
 
 
 
@@ -27,38 +67,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Зоология беспозвоночных второй год обучения (ведущий В. М. Хайтов)
 
-[Планы строения животных: Эволюционная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx) 
++ [Планы строения животных: Эволюционная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx) 
 
-[Полихеты](Presentations/VM_2nd_year/Polychaeta.ppt) 
++ [Полихеты](Presentations/VM_2nd_year/Polychaeta.ppt) 
 
-[План строения аннелид. Развитие полихет](Presentations/VM_2nd_year/План строения Annelida развитие Polychaeta_VM.pptx) [**Видео** 1](https://drive.google.com/open?id=1etssrpKQ_MAyM0DRSms1fAuKXejtYFOx), [**Видео** 2](https://drive.google.com/open?id=1hP-7hpN_ppTseClkAWsJAm3rOT89R_bw)
++ [План строения аннелид. Развитие полихет](Presentations/VM_2nd_year/План строения Annelida развитие Polychaeta_VM.pptx) [**Видео** 1](https://drive.google.com/open?id=1etssrpKQ_MAyM0DRSms1fAuKXejtYFOx), [**Видео** 2](https://drive.google.com/open?id=1hP-7hpN_ppTseClkAWsJAm3rOT89R_bw)
 
-[Олигохеты и Пиявки](Presentations/VM_2nd_year/Oligochaeta_Hirudinea_VM.pptx) [**Видео**](https://drive.google.com/open?id=1k18lmK3TiX8uguWwYwx0uJ-0kCUiGn2e)
++ [Олигохеты и Пиявки](Presentations/VM_2nd_year/Oligochaeta_Hirudinea_VM.pptx) [**Видео**](https://drive.google.com/open?id=1k18lmK3TiX8uguWwYwx0uJ-0kCUiGn2e)
 
-[Немертины](Presentations/VM_2nd_year/Nemertea.ppt) 
++ [Немертины](Presentations/VM_2nd_year/Nemertea.ppt) 
 
-[Олигомерные Trochozoa](Presentations/VM_2nd_year/Олигомерные Trochozoa_VM.pptx) [**Видео**. At! Сначала идет практическая работа по насекомым](https://drive.google.com/open?id=11oCoTeKWi2EqzvmrVVGSuXCkovSoKs_z)
++ [Олигомерные Trochozoa](Presentations/VM_2nd_year/Олигомерные Trochozoa_VM.pptx) [**Видео**. At! Сначала идет практическая работа по насекомым](https://drive.google.com/open?id=11oCoTeKWi2EqzvmrVVGSuXCkovSoKs_z)
 
-[Моллюски. Введение, обзор многообразия](Presentations/VM_2nd_year/Mollusca _introduction_VM.pptx) [**Видео**](https://drive.google.com/open?id=1fL5cgfmtVelvQ7TY0Ho5WfozO42ENXGF)
++ [Моллюски. Введение, обзор многообразия](Presentations/VM_2nd_year/Mollusca _introduction_VM.pptx) [**Видео**](https://drive.google.com/open?id=1fL5cgfmtVelvQ7TY0Ho5WfozO42ENXGF)
 
 
-[Моллюски. План строения. Примитивные моллюски](Presentations/VM_2nd_year/Mollusca_План строения_VM.pptx)
++ [Моллюски. План строения. Примитивные моллюски](Presentations/VM_2nd_year/Mollusca_План строения_VM.pptx)
 
 
 ## Экология (ведущий В. М. Хайтов)
 
-[Симбиозы](Presentations/Ecology/Симбиозы_адаптированная_версия_VM.pptx) [**Видео** Первая лекция в онлайн режиме](https://drive.google.com/open?id=1C-R7pEU2iaeUjqD5zZZuxmGTX4_Lmac6)
++ [Симбиозы](Presentations/Ecology/Симбиозы_адаптированная_версия_VM.pptx) [**Видео** Первая лекция в онлайн режиме](https://drive.google.com/open?id=1C-R7pEU2iaeUjqD5zZZuxmGTX4_Lmac6)
 
 
-[Динамика популяций](Presentations/Ecology/Динамика популяций адаптированная версия_VM.pptx) [**Видео** 1](https://drive.google.com/open?id=1zRA1ds6bijNgdCjP-AhVTm_WvjpWMa-5)  [**Видео** 2](https://drive.google.com/open?id=1d8GFSwc--ZmpGze587wAYeSLMDHIskTg)
++ [Динамика популяций](Presentations/Ecology/Динамика популяций адаптированная версия_VM.pptx) [**Видео** 1](https://drive.google.com/open?id=1zRA1ds6bijNgdCjP-AhVTm_WvjpWMa-5)  [**Видео** 2](https://drive.google.com/open?id=1d8GFSwc--ZmpGze587wAYeSLMDHIskTg)
 
-[Многообразие взаимоотношений. Часть 1. Классификация симфизиологических связей](Presentations/Ecology/Симфизиологические связи_VM.pptx) [**Видео**](https://drive.google.com/open?id=1A_Vfflz1IFXHY7L6rbYLP41Mkyvr4hHI)
-
-
-[Многообразие взаимоотношений. Часть 2. Классификация по результату связей](Presentations/Ecology/Взаимоотношения часть 2_VM.pptx) [**Видео**](https://drive.google.com/open?id=1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb)
++ [Многообразие взаимоотношений. Часть 1. Классификация симфизиологических связей](Presentations/Ecology/Симфизиологические связи_VM.pptx) [**Видео**](https://drive.google.com/open?id=1A_Vfflz1IFXHY7L6rbYLP41Mkyvr4hHI)
 
 
-[Многообразие взаимоотношений. Часть 3. Трофические связи](Presentations/Ecology/Трофические связи_VM.pptx) [**Видео**](https://drive.google.com/open?id=1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb)
++ [Многообразие взаимоотношений. Часть 2. Классификация по результату связей](Presentations/Ecology/Взаимоотношения часть 2_VM.pptx) [**Видео**](https://drive.google.com/open?id=1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb)
+
+
++ [Многообразие взаимоотношений. Часть 3. Трофические связи](Presentations/Ecology/Трофические связи_VM.pptx) [**Видео**](https://drive.google.com/open?id=1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb)
 
 
 
@@ -68,28 +108,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Протистология (ведущий П. Ю. Сафонов)
 
-[Вводная лекция](Presentations/Protistology_presentations/01 Вводная лекция.pptx)
++ [Вводная лекция](Presentations/Protistology_presentations/01 Вводная лекция.pptx)
 
-[Клетки протистов](Presentations/Protistology_presentations/02 Клетки протистов.pptx)
++ [Клетки протистов](Presentations/Protistology_presentations/02 Клетки протистов.pptx)
 
-[Alveolata: Введение, Dinoflagellata, Perkinsozoa](Presentations/Protistology_presentations/03 Введение, Dinoflagellata, Perkinsozoa.pptx)
++ [Alveolata: Введение, Dinoflagellata, Perkinsozoa](Presentations/Protistology_presentations/03 Введение, Dinoflagellata, Perkinsozoa.pptx)
 
-[Alveolata: Apicomplexa](Presentations/Protistology_presentations/04 Apicomplexa.pptx)
++ [Alveolata: Apicomplexa](Presentations/Protistology_presentations/04 Apicomplexa.pptx)
 
-[Alveolata: Ciliphora](Presentations/Protistology_presentations/05 Ciliophora.pptx)
++ [Alveolata: Ciliphora](Presentations/Protistology_presentations/05 Ciliophora.pptx)
 
-[Stramenopiles](Presentations/Protistology_presentations/06 Stramenopiles.pptx)
++ [Stramenopiles](Presentations/Protistology_presentations/06 Stramenopiles.pptx)
 
 
 
 ## Что? Где? Когда? (ведущие Д. А. Аристов, В. М. Хайтов, А. В. Полоскин)
 
-[**Видео**. Игра, прошедшая 25.04.2020](https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI) 
++ [**Видео**. Игра, прошедшая 25.04.2020](https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI) 
 
 
 ## Виртуальные экскурсии
 
-[Дудергофские высоты 26.04.2020. **Видео**](https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI) 
++ [Дудергофские высоты 26.04.2020. **Видео**](https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI) 
 
 
 
