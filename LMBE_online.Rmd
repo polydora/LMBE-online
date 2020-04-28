@@ -42,9 +42,9 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-<span style="color:red"> 
+<font color='red'>
 **Внимание!** Нажимая на ссылку **"Видео"**, вы скачиваете очень большой файл. 
-</span>.
+</font>.
 
 
 ## Зоология беспозвоночных первый год обучения (ведущий В. М. Хайтов)
