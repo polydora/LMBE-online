@@ -55,7 +55,8 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Мелкие группы плоских червей (Aspidogastrea, Monogenoidea, "Cestodaria")](Presentations/VM_1st_year/Aspidogastrea Monogenea Cestodaria_VM.pptx) [**Видео**](https://drive.google.com/open?id=1_bxNBKGTocYFl1ZXulYaMl6_c9RR3gJ6)
 
-+ [Планы строения животных: Эволюцилнная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx)
++ [Планы строения животных: Эволюцилнная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx) [**Видео**](https://drive.google.com/open?id=1jd0dWLxnJtjbR59RDch4qxgkaV922SHL)
+
 
 
 
@@ -83,6 +84,10 @@ pre { /* Code block - determines code spacing between lines */
 
 
 + [Моллюски. План строения. Примитивные моллюски](Presentations/VM_2nd_year/Mollusca_План строения_VM.pptx)
+
++ [Gastropoda](Presentations/VM_2nd_year/Mollusca_Gastropoda_VM.ppt) [**Видео**. At! Сначала идет практическая работа по плоским червям](https://drive.google.com/open?id=1bAxs6dGiC_DnbMY-7HNcPJqIrNAQ_oOm)
+
+
 
 
 ## Экология (ведущий В. М. Хайтов)
