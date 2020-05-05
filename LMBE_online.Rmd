@@ -108,6 +108,7 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Многообразие взаимоотношений. Часть 4. Трофические связи. Теория оптимального фуражирования и динамика популяции хищника и жертвы](Presentations/Ecology/Трофические отношения. Адаптированная версия.pptx) [**Видео**](https://https://drive.google.com/open?id=1wR2IpVtpHw5TFtd6YEgrlN_Up-4cgV03)
 
++ [Многообразие взаимоотношений. Часть 5. Конкурентные отношения](Presentations/Ecology/Конкуренция адаптированная лекция_VM.pptx) [**Видео**](https://drive.google.com/open?id=1kOQ3B--B2OSaWlPg2qnvgcUE7nyoUL_y)
 
 
 
