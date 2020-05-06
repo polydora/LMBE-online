@@ -154,6 +154,12 @@ pre { /* Code block - determines code spacing between lines */
 + [Дудергофские высоты 26.04.2020. **Видео**](https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y) 
 
 
+## Семинары
+
++ [Научный семинар 11.04.2020. Докладчики Марина Антропова, Олег Кириллов. **Видео**](https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj)
+
++ [Тематический семинар "Научное VS Популярное" **Видео 1**.](https://drive.google.com/open?id=1iK2DB4uZFNTNiJZrHptcLQsA_byDefXI) [**Видео 2**](https://drive.google.com/open?id=1Y3nl67u0kKjBjR70jzvjxXoAAoFJWVOY)
+
 
 
 
