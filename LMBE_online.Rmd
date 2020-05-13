@@ -92,6 +92,10 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Gastropoda](Presentations/VM_2nd_year/Mollusca_Gastropoda_VM.ppt) [**Видео**. At! Сначала идет практическая работа по плоским червям](https://drive.google.com/open?id=1bAxs6dGiC_DnbMY-7HNcPJqIrNAQ_oOm)
 
++ [Bivalvia](Presentations/VM_2nd_year/Mollusca_Bivalvia.ppt) [Cephalopoda](Presentations/VM_2nd_year/Mollusca_Cephalopoda.ppt)  [**Видео**. ](https://drive.google.com/open?id=16eSbC8uOgd5scyKiceQ_rfs4XzAWRd2M)
+
+
++ [Lophophorata](Presentations/VM_2nd_year/) [**Видео**.](https://drive.google.com/open?id=1etmil2URhGWrN0_mQCf_qn0QLHhuE2cM)
 
 
 
@@ -115,7 +119,7 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Многообразие взаимоотношений. Часть 5. Конкурентные отношения](Presentations/Ecology/Конкуренция адаптированная лекция_VM.pptx) [**Видео**](https://drive.google.com/open?id=1kOQ3B--B2OSaWlPg2qnvgcUE7nyoUL_y)
 
-+ [Структура сообщества](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx) [**Видео**](https://drive.google.com/open?id=1rMF6X6LIPy7qY-Z5x-SMlZPH6gTt_3we)
++ [Структура сообщества](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx) [**Видео**](https://drive.google.com/open?id=1CyZk3_niac1edcRp6RTSxCf8rv2U951O)
 
 
 
@@ -169,6 +173,8 @@ pre { /* Code block - determines code spacing between lines */
 ## Семинары
 
 + [Научный семинар 11.04.2020. Докладчики Марина Антропова, Олег Кириллов. **Видео**](https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj)
+
++ [Научный семинар 12.05.2020. Докладчики Д.А.Аристов с дайджестом, Анна Молодцова. **Видео**](https://drive.google.com/open?id=1KVrRdsbB0wSk-3DvFqnrSZ28POkQTldC)
 
 + [Тематический семинар "Научное VS Популярное" **Видео 1**.](https://drive.google.com/open?id=1Y3nl67u0kKjBjR70jzvjxXoAAoFJWVOY) [**Видео 2**](https://drive.google.com/open?id=1iK2DB4uZFNTNiJZrHptcLQsA_byDefXI)
 
