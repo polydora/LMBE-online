@@ -115,6 +115,8 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Многообразие взаимоотношений. Часть 5. Конкурентные отношения](Presentations/Ecology/Конкуренция адаптированная лекция_VM.pptx) [**Видео**](https://drive.google.com/open?id=1kOQ3B--B2OSaWlPg2qnvgcUE7nyoUL_y)
 
++ [Структура сообщества](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx) [**Видео**](https://drive.google.com/open?id=1rMF6X6LIPy7qY-Z5x-SMlZPH6gTt_3we)
+
 
 
 
