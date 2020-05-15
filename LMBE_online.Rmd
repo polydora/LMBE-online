@@ -47,7 +47,7 @@ pre { /* Code block - determines code spacing between lines */
 </font>.
 
 
-## Зоология беспозвоночных первый год обучения (ведущий В. М. Хайтов)
+## Зоология беспозвоночных первый год изучения (ведущий В. М. Хайтов)
 
 + [Сосальщики (Trematoda)](Presentations/VM_1st_year/Trematoda_VM.pptx) 
 
@@ -60,7 +60,7 @@ pre { /* Code block - determines code spacing between lines */
 + [Круглые черви (Nematoda)](Presentations/VM_1st_year/Nematoda_VM.pptx) [**Видео**](https://drive.google.com/open?id=1qRCR-smQ_HwJEeNkdhH2AU9xWv0l_SeT)
 
 
-## Зоология беспозвоночных первый год обучения (ведущий А. В. Полоскин)
+## Зоология беспозвоночных первый год изучения (ведущий А. В. Полоскин)
 
 + [Амебы](Presentations/AV_1st_year/Amoebozea.pdf)
 + [Excavata и Choanoflagellata](Presentations/AV_1st_year/Excavata_Choanoflagellata.pdf)
@@ -71,7 +71,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Зоология беспозвоночных второй год обучения (ведущий В. М. Хайтов)
+## Зоология беспозвоночных второй год изучения (ведущий В. М. Хайтов)
 
 + [Планы строения животных: Эволюционная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx) 
 
@@ -124,7 +124,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Зоология беспозвоночных первый год обучения (ведущий Д. А. Аристов)
+## Зоология беспозвоночных первый год изучения (ведущий Д. А. Аристов)
 
 + [Сосальщики (Trematoda)](http://hydrola.ru/smth/da/lmbe_online/Trematoda.pptx)
 
@@ -134,7 +134,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Зоология беспозвоночных второй год обучения (ведущий Д. А. Аристов)
+## Зоология беспозвоночных второй год изучения (ведущий Д. А. Аристов)
 
 + [Щупальцевые (Tentaculata)](http://hydrola.ru/smth/da/lmbe_online/Tentaculata.pptx)
 
@@ -162,23 +162,30 @@ pre { /* Code block - determines code spacing between lines */
 ## Что? Где? Когда? (ведущие Д. А. Аристов, В. М. Хайтов, А. В. Полоскин)
 
 + [**Видео**. Игра, прошедшая 25.04.2020](https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI) 
++ [**Видео**. Игра, прошедшая 14.05.2020](https://drive.google.com/open?id=1k6oka00q1sOVlioGvO1GQsSAkMVfrITs) 
 
 
 ## Виртуальные экскурсии
 
-+ [Дудергофские высоты 26.04.2020. **Видео**](https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y) 
++ [Дудергофские высоты  **Видео**](https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y) 
 + [Первоцветы](Presentations/AV_1st_year/первоцветы_экскурсия.pdf)
+
+
+## Виртуальные практические работы
++ [Кишечнополостные](Presentations/Virtual_Practice/Cnidaria практика_VM.pptx)
+
++ [Плоские черви](Presentations/Virtual_Practice/Plathelminthes практика_VM.pptx)
+
++ [Насекомые](Presentations/Virtual_Practice/Insecta практика_VM.pptx)
 
 
 ## Семинары
 
-+ [Научный семинар 11.04.2020. Докладчики Марина Антропова, Олег Кириллов. **Видео**](https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj)
++ [Научный семинар. Докладчики Марина Антропова, Олег Кириллов. **Видео**](https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj)
 
-+ [Научный семинар 12.05.2020. Докладчики Д.А.Аристов с дайджестом, Анна Молодцова. **Видео**](https://drive.google.com/open?id=1KVrRdsbB0wSk-3DvFqnrSZ28POkQTldC)
++ [Научный семинар.  Докладчики Д.А.Аристов с дайджестом, Анна Молодцова. **Видео**](https://drive.google.com/open?id=1KVrRdsbB0wSk-3DvFqnrSZ28POkQTldC)
 
 + [Тематический семинар "Научное VS Популярное" **Видео 1**.](https://drive.google.com/open?id=1Y3nl67u0kKjBjR70jzvjxXoAAoFJWVOY) [**Видео 2**](https://drive.google.com/open?id=1iK2DB4uZFNTNiJZrHptcLQsA_byDefXI)
-
-
 
 
 
