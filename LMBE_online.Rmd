@@ -57,7 +57,10 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Планы строения животных: Эволюцилнная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx) [**Видео**](https://drive.google.com/open?id=1jd0dWLxnJtjbR59RDch4qxgkaV922SHL)
 
-+ [Круглые черви (Nematoda)](Presentations/VM_1st_year/Nematoda_VM.pptx) [**Видео**](https://drive.google.com/open?id=1qRCR-smQ_HwJEeNkdhH2AU9xWv0l_SeT)
++ [Круглые черви (Nematoda): Строение](Presentations/VM_1st_year/Nematoda_VM.pptx) [**Видео**](https://drive.google.com/open?id=1qRCR-smQ_HwJEeNkdhH2AU9xWv0l_SeT)
+
++ [Круглые черви (Nematoda): Жизненные циклы](Presentations/VM_1st_year/Life_cycles_Nematoda_VM.pptx) [**Видео**](https://drive.google.com/open?id=1aMlLpiXeV1_tyew75krHd_QZ2yBlg_IX)
+
 
 
 ## Зоология беспозвоночных первый год изучения (ведущий А. В. Полоскин)
