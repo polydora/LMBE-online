@@ -20,11 +20,11 @@ h1.title {
   color: DarkRed;
 }
 h1 { /* Header 1 */
-  font-size: 60px;
+  font-size: 30px;
   color: black;
 }
 h2 { /* Header 2 */
-    font-size: 40px;
+    font-size: 20px;
   color: black;
 }
 h3 { /* Header 3 */
@@ -41,13 +41,14 @@ pre { /* Code block - determines code spacing between lines */
 </style>
 
 
+<img style="float: center;" src="EMBLEM89.GIF" width="100">
 
 <font color='red'>
 **Внимание!** Нажимая на ссылку **"Видео"**, вы скачиваете очень большой файл. 
 </font>.
 
 
-## Зоология беспозвоночных первый год изучения (ведущий В. М. Хайтов)
+## **Зоология беспозвоночных первый год изучения** (ведущий В. М. Хайтов)
 
 + [Сосальщики (Trematoda)](Presentations/VM_1st_year/Trematoda_VM.pptx) 
 
@@ -63,7 +64,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Зоология беспозвоночных первый год изучения (ведущий А. В. Полоскин)
+## **Зоология беспозвоночных первый год изучения** (ведущий А. В. Полоскин)
 
 + [Амебы](Presentations/AV_1st_year/Amoebozea.pdf)
 + [Excavata и Choanoflagellata](Presentations/AV_1st_year/Excavata_Choanoflagellata.pdf)
@@ -74,7 +75,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Зоология беспозвоночных второй год изучения (ведущий В. М. Хайтов)
+## **Зоология беспозвоночных второй год изучения** (ведущий В. М. Хайтов)
 
 + [Планы строения животных: Эволюционная инженерия](Presentations/VM_1st_year/Планы строения животных_VM.pptx) 
 
@@ -102,7 +103,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Экология (ведущий В. М. Хайтов)
+## **Экология** (ведущий В. М. Хайтов)
 
 + [Симбиозы](Presentations/Ecology/Симбиозы_адаптированная_версия_VM.pptx) [**Видео** Первая лекция в онлайн режиме](https://drive.google.com/open?id=1C-R7pEU2iaeUjqD5zZZuxmGTX4_Lmac6)
 
@@ -127,8 +128,13 @@ pre { /* Code block - determines code spacing between lines */
 + [Динамика сообщества](Presentations/Ecology/Динамика сообществ.pptx) [**Видео часть 1**](https://drive.google.com/open?id=1n8Ia7zrTFeqRiQq2mEaVquL5QCNYjLLB)
 
 
+## **Моря России** (ведущий А. В. Полоскин)
++  [**Арктические моря**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
 
-## Зоология беспозвоночных первый год изучения (ведущий Д. А. Аристов)
+
+
+
+## **Зоология беспозвоночных первый год изучения** (ведущий Д. А. Аристов)
 
 + [Сосальщики (Trematoda)](http://hydrola.ru/smth/da/lmbe_online/Trematoda.pptx)
 
@@ -138,7 +144,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Зоология беспозвоночных второй год изучения (ведущий Д. А. Аристов)
+## **Зоология беспозвоночных второй год изучения** (ведущий Д. А. Аристов)
 
 + [Щупальцевые (Tentaculata)](http://hydrola.ru/smth/da/lmbe_online/Tentaculata.pptx)
 
@@ -147,7 +153,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Протистология (ведущий П. Ю. Сафонов)
+## **Протистология** (ведущий П. Ю. Сафонов)
 
 + [Вводная лекция](Presentations/Protistology_presentations/01 Вводная лекция.pptx)
 
@@ -163,19 +169,19 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-## Что? Где? Когда? (ведущие Д. А. Аристов, В. М. Хайтов, А. В. Полоскин)
+## **Что? Где? Когда?** (ведущие Д. А. Аристов, В. М. Хайтов, А. В. Полоскин)
 
 + [**Видео**. Игра, прошедшая 25.04.2020](https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI) 
 + [**Видео**. Игра, прошедшая 14.05.2020](https://drive.google.com/open?id=1k6oka00q1sOVlioGvO1GQsSAkMVfrITs) 
 
 
-## Виртуальные экскурсии
+## **Виртуальные экскурсии**
 
 + [Дудергофские высоты  **Видео**](https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y) 
 + [Первоцветы](Presentations/AV_1st_year/первоцветы_экскурсия.pdf)
 
 
-## Виртуальные практические работы
+## **Виртуальные практические работы**
 + [Кишечнополостные](Presentations/Virtual_Practice/Cnidaria практика_VM.pptx)
 
 + [Плоские черви](Presentations/Virtual_Practice/Plathelminthes практика_VM.pptx)
@@ -183,7 +189,7 @@ pre { /* Code block - determines code spacing between lines */
 + [Насекомые](Presentations/Virtual_Practice/Insecta практика_VM.pptx)
 
 
-## Семинары
+## **Семинары**
 
 + [Научный семинар. Докладчики Марина Антропова, Олег Кириллов. **Видео**](https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj)
 
