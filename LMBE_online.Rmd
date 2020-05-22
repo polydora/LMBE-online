@@ -98,7 +98,7 @@ pre { /* Code block - determines code spacing between lines */
 + [Bivalvia](Presentations/VM_2nd_year/Mollusca_Bivalvia.ppt) [Cephalopoda](Presentations/VM_2nd_year/Mollusca_Cephalopoda.ppt)  [**Видео**. ](https://drive.google.com/open?id=16eSbC8uOgd5scyKiceQ_rfs4XzAWRd2M)
 
 
-+ [Lophophorata](Presentations/VM_2nd_year/) [**Видео**.](https://drive.google.com/open?id=1etmil2URhGWrN0_mQCf_qn0QLHhuE2cM)
++ [Lophophorata](Presentations/VM_2nd_year/) [**Видео Часть 1**.](https://drive.google.com/open?id=1etmil2URhGWrN0_mQCf_qn0QLHhuE2cM) [**Видео Часть 2**](https://drive.google.com/open?id=1yC4CarJnX05cDJErDZgDJ5xzBc2FCKZR)
 
 
 
@@ -124,6 +124,7 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Структура сообщества](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx) [**Видео**](https://drive.google.com/open?id=1CyZk3_niac1edcRp6RTSxCf8rv2U951O)
 
++ [Динамика сообщества](Presentations/Ecology/Динамика сообществ.pptx) [**Видео часть 1**](https://drive.google.com/open?id=1n8Ia7zrTFeqRiQq2mEaVquL5QCNYjLLB)
 
 
 
