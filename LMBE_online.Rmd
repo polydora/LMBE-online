@@ -125,11 +125,18 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Структура сообщества](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx) [**Видео**](https://drive.google.com/open?id=1CyZk3_niac1edcRp6RTSxCf8rv2U951O)
 
-+ [Динамика сообщества](Presentations/Ecology/Динамика сообществ.pptx) [**Видео часть 1**](https://drive.google.com/open?id=1n8Ia7zrTFeqRiQq2mEaVquL5QCNYjLLB)
++ [Динамика сообщества](Presentations/Ecology/Динамика сообществ.pptx) [**Видео часть 1**](https://drive.google.com/open?id=1n8Ia7zrTFeqRiQq2mEaVquL5QCNYjLLB) [**Видео часть 2**](https://drive.google.com/open?id=1XmUt9fGgR9qYk8uo0m3lmH-Gi-Fpa7T9)
+
++ [Список терминов, которыми должен уметь пользоваться эколог ](Presentations/Ecology/Глоссарий.pdf)
+
+
+
+
+
 
 
 ## **Моря России** (ведущий А. В. Полоскин)
-+  [**Арктические моря**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
++  [Арктические моря](Presentations/AV_Russian_Seas/арктические моря.pdf) [**Видео**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
 
 
 
@@ -197,6 +204,6 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Тематический семинар "Научное VS Популярное" **Видео 1**.](https://drive.google.com/open?id=1Y3nl67u0kKjBjR70jzvjxXoAAoFJWVOY) [**Видео 2**](https://drive.google.com/open?id=1iK2DB4uZFNTNiJZrHptcLQsA_byDefXI)
 
-
++ [Тематический семинар "Зачет по курсу экологии" **Видео**.](https://drive.google.com/open?id=1xYFbTHABilLTvBABVZlSBc5g-euVxo7R)
 
 
