@@ -208,4 +208,5 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Тематический семинар "Зачет по курсу экологии" **Видео**.](https://drive.google.com/open?id=1xYFbTHABilLTvBABVZlSBc5g-euVxo7R)
 
++ [Тематический семинар "Зачет по курсу Зоологии беспозвоночных, первый год изучения" **Видео**.](https://drive.google.com/open?id=1CmjMWqW-NFn8la_Yfm7OrQuzEl2vbWEJ)
 
