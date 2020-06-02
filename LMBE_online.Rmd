@@ -72,6 +72,10 @@ pre { /* Code block - determines code spacing between lines */
 + [Жизненные циклы споровиков часть 1](Presentations/AV_1st_year/Жизненные_ циклы_споровиков.pdf)
 + [Жизненные циклы споровиков часть 2](Presentations/AV_1st_year/Жизненные_ циклы_споровиков2.pdf)
 + [Малярия](Presentations/AV_1st_year/Малярия_.pdf)
++ [Stramenopiles и Microsporidia](Presentations/AV_1st_year/разножгутиковые_микроспоридии.pdf)
++ [Фотосинтезирующие жгутиконосцы](Presentations/AV_1st_year/фотосинтезирующие_жгутиконосцы.pdf)
+
+
 
 
 
@@ -137,6 +141,8 @@ pre { /* Code block - determines code spacing between lines */
 
 ## **Моря России** (ведущий А. В. Полоскин)
 +  [Арктические моря](Presentations/AV_Russian_Seas/арктические моря.pdf) [**Видео**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
+
++  [Дальневосточные моря](Presentations/AV_Russian_Seas/дальневосточные моря.pdf) 
 
 
 
