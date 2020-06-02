@@ -188,6 +188,10 @@ pre { /* Code block - determines code spacing between lines */
 + [Первоцветы](Presentations/AV_1st_year/первоцветы_экскурсия.pdf)
 + [Виртуальная Ящера: Анонс. Видео](https://vk.com/hydrolab?z=video-312524_456239030%2F6414cb680870529ded%2Fpl_wall_-312524)
 + [Виртуальная Ящера: Онитология. Видео](https://youtu.be/0NmRZptftPc)
++ [Виртуальная Ящера: Гидробиология. Видео](https://youtu.be/wUS7Ul559-E)
++ [Виртуальная Ящера: Узлы. Видео](https://youtu.be/CnjPxZDYsBc)
+
+
 
 
 ## **Виртуальные практические работы**
