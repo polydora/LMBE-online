@@ -196,7 +196,7 @@ pre { /* Code block - determines code spacing between lines */
 + [Виртуальная Ящера: Онитология. Видео](https://youtu.be/0NmRZptftPc)
 + [Виртуальная Ящера: Гидробиология. Видео](https://youtu.be/wUS7Ul559-E)
 + [Виртуальная Ящера: Узлы. Видео](https://youtu.be/CnjPxZDYsBc)
-
++ [Виртуальная Ящера: Зачет. Видео](https://drive.google.com/file/d/1QK__2qwG-S_WEsTpxXwNsiAciwhx_twB/view?usp=sharing)
 
 
 
@@ -206,6 +206,9 @@ pre { /* Code block - determines code spacing between lines */
 + [Плоские черви](Presentations/Virtual_Practice/Plathelminthes практика_VM.pptx)
 
 + [Насекомые](Presentations/Virtual_Practice/Insecta практика_VM.pptx)
+
++ [Жители подстилки и почвы](Presentations/Virtual_Practice/Почвенная_фауна.pptx)
+
 
 
 ## **Семинары**
@@ -219,4 +222,16 @@ pre { /* Code block - determines code spacing between lines */
 + [Тематический семинар "Зачет по курсу экологии" **Видео**.](https://drive.google.com/open?id=1xYFbTHABilLTvBABVZlSBc5g-euVxo7R)
 
 + [Тематический семинар "Зачет по курсу Зоологии беспозвоночных, первый год изучения" **Видео**.](https://drive.google.com/open?id=1CmjMWqW-NFn8la_Yfm7OrQuzEl2vbWEJ)
+
+
+
+## Разнообразие живых систем (работа с гимназией №56)
+
++ [Происхождение жизни и тест по теме (недельные метериалы)](Presentations/School_56/Происхождение жизни.pptx)
+
++ [Организация биосферы и тест по теме (недельные метериалы)](Presentations/School_56/Биосфера.pptx)
+
++ [**Итоговый тест**](https://drive.google.com/file/d/1oeaRqqxEpK8J3fdafB5eS_wOBSWPVote/view?usp=sharing)
+
+
 
