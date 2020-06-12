@@ -24,7 +24,7 @@ h1 { /* Header 1 */
   color: black;
 }
 h2 { /* Header 2 */
-    font-size: 20px;
+    font-size: 25px;
   color: black;
 }
 h3 { /* Header 3 */
@@ -96,9 +96,9 @@ http://www.alexandra-goryashko.net/choise_book/choise_books.htm
 
 ## **Матриалы биосеминаров СПбГУ** 
 
-Полный перечень лекций и догалов можно найти вот [здесь](https://bioseminars.wordpress.com/)
+Полный перечень лекций и докладов можно найти вот [здесь](https://bioseminars.wordpress.com/)
 
-Некторые ниаиболее интересные лекции 
+Некоторые наиболее интересные лекции 
 
 + [Надежда Римская-Корсакова. О вестиментиферах](https://bioseminars.wordpress.com/2018/03/23/vestimentiferans-video/)
 
