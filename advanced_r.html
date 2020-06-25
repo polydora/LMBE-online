@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,7 +56,9 @@ h6 {
 
 <link rel="stylesheet" href="my_styles.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -70,6 +72,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -174,6 +177,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -218,7 +223,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -231,9 +235,48 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -247,12 +290,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -288,6 +325,8 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -302,16 +341,6 @@ div.tocify {
 }
 
 </style>
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
-
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -341,7 +370,7 @@ div.tocify {
         <li><a href="advanced_r.html">Advanced R</a></li>
 	<li><a href="data_science.html">Data Science</a></li>
 	<li><a href="LMBE_online.html">Наш онлайн</a></li>
-	<li><a href="events.html">События</a></li>
+	<li><a href="summer.html">Заповедное лето</a></li>
 	<li><a href="analysis.html">Разбор полетов</a></li>
         <li class="dropdown">
           <a href="appendix" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Полезности<span class="caret"></span></a>
@@ -364,10 +393,10 @@ div.tocify {
 </div>
 
 
-<div id="часть-1.-создание-html-документа" class="section level1">
+<div id="-1.--html-" class="section level1">
 <h1><strong>Часть 1.</strong> Создание html документа</h1>
 <p>В этой части курса мы учимся создавать простейшие html документы, используя язык разметки документов <code>rmarkdown</code></p>
-<div id="материалы-для-упражнения" class="section level2">
+<div id="--" class="section level2">
 <h2>Материалы для упражнения</h2>
 <p>Задание:</p>
 <ol style="list-style-type: decimal">
@@ -380,18 +409,18 @@ div.tocify {
 </ol>
 <ul>
 <li><p><a href="Advanced_R/Exercises/Khaitov_et_al_Derjugin.docx">Текст для упражененя</a></p></li>
-<li><p><a href="Advanced_R/Exercises/data/myt_all.csv">файл с данными для рисунка 1</a></p></li>
+<li><a href="Advanced_R/Exercises/data/myt_all.csv">файл с данными для рисунка 1</a></li>
 <li><p><a href="Advanced_R/Exercises/data/myt_Z0_all_full.csv">файл с данными для рисунка 2</a></p></li>
 </ul>
 </div>
-<div id="результаты-работы-над-упражнением" class="section level2">
+<div id="---" class="section level2">
 <h2>Результаты работы над упражнением</h2>
 <ul>
 <li><a href="My_html_project/Khaitov_et_al.Rmd">файл RMD</a></li>
 <li><a href="My_html_project/Khaitov_et_al.html">файл html</a></li>
 </ul>
 </div>
-<div id="домашнее-задание-по-итогам-работы" class="section level2">
+<div id="----" class="section level2">
 <h2>Домашнее задание по итогам работы</h2>
 <ol style="list-style-type: decimal">
 <li>Доделайте все до конца.</li>
@@ -434,7 +463,7 @@ pre { /* Code block - determines code spacing between lines */
 &lt;/style&gt;
 </code></pre>
 </div>
-<div id="сданные-дз." class="section level2">
+<div id="-." class="section level2">
 <h2>Сданные ДЗ.</h2>
 <p>Вот Анка и Слава - молодцы! Остальные… Господа, ДЗ надо делать и присылать.</p>
 <ul>
@@ -442,11 +471,11 @@ pre { /* Code block - determines code spacing between lines */
 </ul>
 </div>
 </div>
-<div id="часть-2.-работа-с-библиографией" class="section level1">
+<div id="-2.---" class="section level1">
 <h1><strong>Часть 2.</strong> Работа с библиографией</h1>
 <p>В этой части курса мы научимся автоматически управлять форматом и стилем списка литературы и ссылками в тексте работы.</p>
 <p>Первый шаг - это научиться создавать файл с тегами, описывающими литературные источники. В последствии мы научимся делать это автоматически из библиографической базы типа Mendeley или Zotero. Однако для начала это надо будет сделать вручную.</p>
-<div id="домашнее-задание-по-итогам-работы-5.02.2019" class="section level2">
+<div id="-----5.02.2019" class="section level2">
 <h2>Домашнее задание по итогам работы 5.02.2019</h2>
 <ol style="list-style-type: decimal">
 <li>Создайте в блокноте файл my_bibliography.bib (лучше называть его как-то стандартно).</li>
@@ -458,7 +487,7 @@ pre { /* Code block - determines code spacing between lines */
 </ol>
 <p>На всякий случай, вот последняя версия RMD файла, который мы сотворили. Можете ее использовать. - <a href="My_html_project/Slava.Rmd">Слава RMD</a></p>
 </div>
-<div id="создаем-список-литературы" class="section level2">
+<div id="--" class="section level2">
 <h2>Создаем список литературы</h2>
 <ul>
 <li><a href="My_html_project/litlist_forcopy.txt">Библиография от Славы</a></li>
@@ -466,7 +495,7 @@ pre { /* Code block - determines code spacing between lines */
 </ul>
 </div>
 </div>
-<div id="часть-3.-формируем-список-литературы-в-html-документе" class="section level1">
+<div id="-3.-----html-" class="section level1">
 <h1><strong>Часть 3.</strong> Формируем список литературы в html-документе</h1>
 <p>Вот текущий код, в котором показано, как вставляются бибилографические ссылки, находящиеся в файле .bib, в текст RMD в соответствии со стилем, принятым в том или ином журнале</p>
 <ul>
@@ -474,7 +503,7 @@ pre { /* Code block - determines code spacing between lines */
 <li><a href="My_html_project/my_bibliography.bib">файл .bib с библиографическими данными</a></li>
 <li><a href="animal-migration.csl">файл .csl c описанием стиля цитирования, используемого в журнале “Animal migration”</a></li>
 </ul>
-<div id="домашнее-задание-по-итогам-работы-12.02.2019" class="section level2">
+<div id="-----12.02.2019" class="section level2">
 <h2>Домашнее задание по итогам работы 12.02.2019</h2>
 <ol style="list-style-type: decimal">
 <li><p>Доработать файл .bib так, чтобы в итоговом html-документе не было проблем со списком литературы (внимательно смотрите, чтобы те слова, которые пишутся с большой буквы, писались с большой буквы, а то, что надо писать курсивом, было написано курсивом)</p></li>
@@ -483,7 +512,7 @@ pre { /* Code block - determines code spacing between lines */
 </ol>
 </div>
 </div>
-<div id="часть-4.-превращаем-rmd-в-doc" class="section level1">
+<div id="-4.--rmd--doc" class="section level1">
 <h1><strong>Часть 4.</strong> Превращаем RMD в DOC</h1>
 <p>В этой части курса мы научимся превращать наш RMD в документ Word. Для этого будем использовать RMD-шник Маси и ее дополнительные материалы (она первая прислала ДЗ, поэтому ей и тапочки).</p>
 <ul>
@@ -506,12 +535,12 @@ pre { /* Code block - determines code spacing between lines */
 <p><a href="https://bookdown.org/yihui/rmarkdown/word-document.html" class="uri">https://bookdown.org/yihui/rmarkdown/word-document.html</a></p>
 <p>А вот здесь чудесное видео от великого Yihui Xie</p>
 <p><a href="https://vimeo.com/110804387" class="uri">https://vimeo.com/110804387</a></p>
-<div id="дз" class="section level2">
+<div class="section level2">
 <h2>ДЗ</h2>
 <p>Доработать Масин RMD так, чтобы из него получался автоматом хороший и красивый вордовский документ. Если кто-нибудь поймет, как обуздать проблему с таблицами, которые будут вставляться плохо (надо будет дорабатывать уже в ворде), то я буду очень признателен.</p>
 <p>В качестве стиля цитирования используйте ecology.csl.</p>
 </div>
-<div id="данные-для-работы" class="section level2">
+<div id="--" class="section level2">
 <h2>Данные для работы</h2>
 <ul>
 <li><a href="My_html_project.zip">Архив проекта для работы</a></li>
@@ -537,49 +566,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

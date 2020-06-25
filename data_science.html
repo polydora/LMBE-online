@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,7 +56,9 @@ h6 {
 
 <link rel="stylesheet" href="my_styles.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -70,6 +72,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -174,6 +177,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -218,7 +223,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -231,9 +235,48 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -247,12 +290,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -288,6 +325,8 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -302,16 +341,6 @@ div.tocify {
 }
 
 </style>
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
-
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -341,7 +370,7 @@ div.tocify {
         <li><a href="advanced_r.html">Advanced R</a></li>
 	<li><a href="data_science.html">Data Science</a></li>
 	<li><a href="LMBE_online.html">Наш онлайн</a></li>
-	<li><a href="events.html">События</a></li>
+	<li><a href="summer.html">Заповедное лето</a></li>
 	<li><a href="analysis.html">Разбор полетов</a></li>
         <li class="dropdown">
           <a href="appendix" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Полезности<span class="caret"></span></a>
@@ -364,9 +393,9 @@ div.tocify {
 </div>
 
 
-<div id="часть-1.-первые-шаги" class="section level1">
+<div id="-1.--" class="section level1">
 <h1><strong>Часть 1.</strong> Первые шаги</h1>
-<div id="что-надо-сделать-в-первую-очередь" class="section level2">
+<div id="-----" class="section level2">
 <h2>Что надо сделать в первую очередь</h2>
 <p>Поскольку все находятся на разных уровнях своего онтогенеза, то тем, кто вообще еще ничего не знает, предлагается пройти курс молодого бойца, освоив материалы следующей презентации. Бойцам менее молодым тоже рекомендуется просмотреть материалы этой презентации.</p>
 <p><a href="https://varmara.github.io/linmodr/01_intro_to_r.html" class="uri">https://varmara.github.io/linmodr/01_intro_to_r.html</a></p>
@@ -377,7 +406,7 @@ div.tocify {
 </ol>
 </div>
 </div>
-<div id="часть-2.-учимся-работать-с-простейшими-кодами" class="section level1">
+<div id="-2.-----" class="section level1">
 <h1><strong>Часть 2.</strong> Учимся работать с простейшими кодами</h1>
 <p>Ниже вы найдете код, который мы написали в предыдущем занятии.</p>
 <p>Теперь мы знаем как присваивать значения переменным, как написать пользовательскую функцию, что такое векторы и как проводится обращение к элементам векторов.</p>
@@ -386,7 +415,7 @@ div.tocify {
 <p>Часть 1. Мы решили, что команда R_азруштелей легенд в этом году займется выяснением зависят ли оценки учащихся от погодных условий. Поэтому, используя данные электронных дневников как можно большего количества своих одноклассников (за прошлые года и можно за этот год) создайте базу данных, которая включала бы следующие поля: Дата, предмет, оценка, класс, Имя ученика (можно номер вместо учеников номера). Чем больше людей будет отраженно в базе, тем надежнее будут выводы. Свои базы данных в экселевском формате присылайте мне по почте до вечера вторника 12 февраля.</p>
 <p>Часть 2. Поставьте себе следующие пакеты. MASS, ggplot2, car, ISwR, dplyr. Про то как ставить пакеты разберитесь самостоятельно.</p>
 </div>
-<div id="часть-3.-визуализация-данных" class="section level1">
+<div id="-3.--" class="section level1">
 <h1><strong>Часть 3.</strong> Визуализация данных</h1>
 <p>Вот код который мы породили на занятии</p>
 <p><a href="Data_science/My_firs_steps/my_first_script.R">Вот код</a></p>
@@ -395,13 +424,13 @@ div.tocify {
 4. Марина добивает базу по оценкам.<br />
 5. Все остальные ищут данные по метеоусловиям за сентябрь-декабрь 2018 (совет: загляниет на rp5). На основе этих данных создаете базу данных по погодным условиям.</p>
 </div>
-<div id="часть-4.-визуализация-данных-с-простейшей-статистической-обработкой" class="section level1">
+<div id="-4.------" class="section level1">
 <h1><strong>Часть 4.</strong> Визуализация данных с простейшей статистической обработкой</h1>
 <p>Марина молодец! Она добила базу данных для нашего проекта Rазрушителей легенд. Скачайте файл. Дорабатывать будем вместе.</p>
 <p><a href="Data_science/My_firs_steps/data/credits.xlsx">Вот файл</a></p>
 <p><strong>Домашнее задание от 6.03.2019</strong> Используя данные из базы данных по оценкам, которая находится в <a href="Data_science/My_firs_steps/data/credits.xlsx">этом файле</a>, нужно будет создать два файла в формате CSV. Первый файл с оценкам за сентябрь, второй – с оценками за октябрь. В коде, который мы создали лежит пример визуализации оценок за сентябрь с помощью бокс-плотов. Нужно будет построить похожий график, но так, чтобы данные за сентябрь и за октябрь находились на одном рисунке на двух разных фасетках. <a href="Data_science/My_firs_steps/my_first_script.R">Вот код который мы написали</a>.</p>
 </div>
-<div id="часть-5.-учимся-манипулировать-данными" class="section level1">
+<div id="-5.---" class="section level1">
 <h1><strong>Часть 5.</strong> Учимся манипулировать данными</h1>
 <p>Будем изучать методы фильтрации и соединения разнородных данных.</p>
 <p>Для работы надо будет скачать данные по гендерной принадлежности изчаемой группы учеников.</p>
@@ -409,12 +438,12 @@ div.tocify {
 <p>Кроме того, я сам за вас (вот нехорошие…) скачал данные по погоде в СПб за интересующий нас срок.</p>
 <p><a href="Data_science/My_firs_steps/data/weather.xls">Вот эти данные</a>.</p>
 </div>
-<div id="часть-6.-учимся-оценивать-параметры-генеральной-совокупности-по-выборкам" class="section level1">
+<div id="-6.-------" class="section level1">
 <h1><strong>Часть 6.</strong> Учимся оценивать параметры генеральной совокупности по выборкам</h1>
 <p><a href="Data_science/My_firs_steps/my_first_script.R">Вот код который мы написали на прошлом занятии</a>.</p>
 <p>Теперь мы знаем, что если величина в генеральной совокупности подчиняется нормальному распределению, то есть только два параметра, которые надо знать, чтобы понять все про эту генеральную совокупность: среднее значение и дисперсия. Но они нам неизвестны и мы используем выборки небольшого объема для их оценки. По выборке мы вычислем: - Среднее выборочное. - Стандартное отклонение. - Стандартную ошибку среднего.</p>
 <p>Для того, чтобы пощупать своими руками то, что эти выборочные показатели означают, вам предлагается решить следующую задачку.</p>
-<div id="домашнее-задание-на-среду" class="section level2">
+<div id="---" class="section level2">
 <h2>Домашнее задание на среду</h2>
 <p>Как известно, созданием разумных существ в Средиземье занимались все, кому не лень. Да и сама по себе эволюция там за четыре эпохи как-никак шла… Короче, решил Эру Илуватар наконец разобраться сколько всего рас обитает в некогда созданной им Арде. И заслал он своего верного майар Пенальда Серобуромалинового в Средиземье и велел ему разобраться в вопросе и предоставить технический отчет. Долго бродил Пенальд по просторам континента и у всех существ, с которыми он имел дело, он измерял их рост и длину ушей. Все это он добросовестно свел в <a href="Data_science/My_firs_steps/data/arda.csv">csv-файл</a>. Помогите Пенальду ответить на следующие вопросы: 1.Сколько всего рас обтитает в Средиземье. 2.Какие именно значения параметров имели ввиду создатели тех или иных рас, когда творили свих питомцев.</p>
 </div>
@@ -438,49 +467,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

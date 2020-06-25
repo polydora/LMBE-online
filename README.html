@@ -11,7 +11,7 @@
 
 
 
-<title>Курсы ЛЭМБ</title>
+<title>README.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -388,24 +388,85 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Курсы ЛЭМБ</h1>
 
 </div>
 
 
-<div class="section level2">
-<h2>контакты</h2>
+<div id="-----" class="section level1">
+<h1>Как работать с кодом этого сайта</h1>
+<p>Дорогие коллабораторы, этот сайт построен с помощью RMarkdown. Подробнее можно прочитать здесь <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html" class="uri">http://rmarkdown.rstudio.com/rmarkdown_websites.html</a></p>
+<p>Презентации сделаны в формате ioslides.</p>
+<p>Удобнее всего работать с проектом RStudio <strong>linmodr.Rproj</strong></p>
+<div id="git-pull" class="section level2">
+<h2>git pull</h2>
+<p>Нас много, поэтому перед началом работы — <strong>git pull</strong></p>
+<p>После того, как поработали (сделали несколько локальных коммитов) — <strong>git pull</strong></p>
+<p>И только потом уже (возможно, после разрешения конфликтов слияния) — <strong>git push</strong></p>
+</div>
+<div id="--." class="section level2">
+<h2>Особенности форматирования презентаций.</h2>
+<p><strong>Не нужно без крайней необходимости уменьшать текст при помощи</strong> <code>.smaller</code>. Шрифты итак очень мелкие — будет не видно, если экран в аудитории небольшой. Если что-то не помещается, лучше разбить на несколько слайдов.</p>
+<p><strong>При двухколоночной верстке избегайте формул в колонках</strong>, т.к. в браузере Chrome пропадает большинство элементов. Формулы можно помещать до начала двухколоночного <code>&lt;div class=&quot;columns-2&quot;&gt;&lt;\div&gt;</code></p>
+<p><strong>При двухколоночной верстке размещайте иллюстрации слева</strong>, иначе в браузере Chrome не происходит разделения на две колонки.</p>
+<p><strong>В презентации лучше вставлять ссылки на данные на github</strong>. Например, так</p>
+<pre><code>library(downloader)
+
+# в рабочем каталоге создаем суб-директорию для данных,
+# если ее еще не было 
+if(!dir.exists(&quot;data&quot;)) dir.create(&quot;data&quot;)
+
+# скачиваем файл
+download(
+  url = &quot;https://varmara.github.io/mathmethr/data/minch.xls&quot;, 
+  destfile = &quot;data/minch.xls&quot;)</code></pre>
+</div>
+<div id="-ioslides----" class="section level2">
+<h2>Обновление ioslides презентации — из командной строки</h2>
+<p>Если кодировка файла совпадает с кодировкой системы</p>
+<pre><code>rmarkdown::render(&quot;02_filename.Rmd&quot;, output_format = &quot;ioslides_presentation&quot;)</code></pre>
+<p>Если кодировка исходного файла другая — указываем правильную</p>
+<pre><code>rmarkdown::render(&quot;02_filename.Rmd&quot;, output_format = &quot;ioslides_presentation&quot;, encoding = &quot;Windows-1251&quot;)
+
+# или
+
+rmarkdown::render(&quot;02_filename.Rmd&quot;, output_format = &quot;ioslides_presentation&quot;, encoding = &quot;Utf-8&quot;)</code></pre>
+</div>
+<div id="-----rmd---" class="section level2">
+<h2>Генерация кода для студентов из Rmd— из командной строки</h2>
 <ul>
-<li>Хайтов Вадим Михайлович - polydora[]rambler.ru</li>
+<li>Отметьте ненужные студентам чанки опцией <code>purl=FALSE</code></li>
+<li>Экстрагируйте код из файла. Весь обычный текст будет закомментирован. ВНИМАНИЕ: пока нам не лень, код помечаем словом <code>code</code> после номера занятия: у многих студентов скрыты расширения файлов.</li>
+</ul>
+<pre><code>purl(&quot;02_filename.Rmd&quot;, documentation = 2, output = &quot;02_code_filename.R&quot;)</code></pre>
+<ul>
+<li>Удалите вручную ненужный текст, решения задач. Оставьте только необходимые заголовки.</li>
+<li>Проверьте, есть ли ссылка на файл с кодом в файле <code>lectures.Rmd</code>.</li>
+<li>Закомитьте (и запушьте, если надо) изменения</li>
 </ul>
 </div>
+<div id="--html----" class="section level2">
+<h2>Обновление простой html-страницы — из командной строки</h2>
+<pre><code>rmarkdown::render_site(&quot;filename.Rmd&quot;)</code></pre>
+<p>Если кодировка исходного файла не совпадает с кодировкой системы — указываем его правильную кодировку</p>
+<pre><code>rmarkdown::render_site(&quot;filename.Rmd&quot;, encoding = &quot;Windows-1251&quot;)
+
+# или
+
+rmarkdown::render_site(&quot;filename.Rmd&quot;, encoding = &quot;Utf-8&quot;)</code></pre>
+</div>
+<div id="--" class="section level2">
+<h2>Обновление сайта целиком</h2>
+<ul>
+<li>через интерфейс RStudio — на вкладке <em>Build</em></li>
+<li>из командной строки <code>rmarkdown::render_site()</code></li>
+</ul>
+<p><strong>Осторожно!</strong> Это может не сработать, т.к. у нас есть файлы в разных кодировках. Лучше обновлять постранично.</p>
+</div>
 <div id="-" class="section level2">
-<h2>Содержание сайта</h2>
-<p>В настоящий момент на сайте выложены материалы по следующим курсам</p>
-<p><strong>Advanced R </strong></p>
-<p>То чем мы будем заниматься, можно назвать “литературным программированием”. Основное внимание будет уделено знакомству с языком RMarkdown. С его помощью мы научимся создавать презентации, документы Word и даже интернет-сайты. Особое место в курсе будет уделено работе с библиографией и методам ее обработки и презентации в документах, создаваемых с помощью RMarkdown. Предполагается, что слушатели курса уже знакомы с языком R. На занятиях необходим ноутбук.</p>
-<p><strong>Data Science </strong> Мы рассмотрим методы обработки и визуализации данных, получаемых в научных исследованиях. Центральное место в курсе занимает знакомство с языком R, являющимся одним наиболее мощных инструментов обработки и визуализации данных. На занятиях необходим ноутбук</p>
-<p><strong>ЛЭМБ онлайн</strong> Материалы онлайн занятий, которые проводят педагоги и волонтеры Лаборатории экологии морскго бентоса (гидробиологии).</p>
+<h2>Публикация сайта</h2>
+<p>Сайт располагается на github pages. Чтобы изменения появились на сайте, достаточно запушить свои коммиты в бренч master</p>
+<pre><code>git push origin master</code></pre>
+</div>
 </div>
 
 
