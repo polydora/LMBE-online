@@ -129,7 +129,7 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 
 + [Презентация с материалами этой лекции](Presentations/Excursions_on_the_White_Sea/Море как среда обитания.pdf)
 
-+ [Викторина по теме  "Море как среда обитания"](https://docs.google.com/forms/d/1JemQt-RsSXosNjkCvHa4o31eL2-bk8K4TKRJoi3MhX8/edit?usp=sharing)
++ [Викторина по теме  "Море как среда обитания"](https://docs.google.com/forms/d/e/1FAIpQLSckZorAnKe58mJnYNNyPQY3JgmjX5seFm1ntZZNuQzdnBJ-xA/viewform?usp=sf_link)
 
 
 <!-- ## Прогулка вторая.  -->
