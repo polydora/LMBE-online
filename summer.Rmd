@@ -111,14 +111,27 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 + [Видео "Дело о странных инструментах"](https://youtu.be/kUTn8GpS01g)
 + [Презентация с загадкой](Presentations/Detective/Загадка первая.pdf)
 + [Google-форма для вашей версии разгадки](https://docs.google.com/forms/d/e/1FAIpQLSfYt6jMjMFj_KxwyOqD0qCc2K9TJtlxy1DbNncM1TjNL_t9Xw/viewform?usp=sf_link)
-+ [Видео с разгадкой первой загадки]()
-+ [Видео с короткой лекцией об изменении численности популяций]()
++ [Видео с разгадкой первой загадки](https://youtu.be/EcfezjJhlP8)
++ [Видео с короткой лекцией об изменении численности популяций](https://youtu.be/rdw0bzNQJ-g)
 
 
-<!-- ## Загадка втрая. "**Не все яйца одинаковые**" -->
+А вот те, кто правильно разгадали первую загадку (всего пришло 23 ответа)
 
-<!-- + [Видео "Дело о разных яйцах"]() -->
-<!-- + [Google-форма для вашей версии разгадки]() -->
+**Софья**   
+**Приставка Артем**   
+**Таня**   
+**Юный исследователь**   
+**Елена Белкина**    
+**МП**   
+**Роман**   
+**Любовь**   
+**Арсений**   
+
+
+## Загадка втрая. "**Не все яйца одинаковые**"
+
++ [Видео "Дело о разных яйцах"](https://youtu.be/kjtBfrLWXXM)
++ [Google-форма для вашей версии разгадки](https://docs.google.com/forms/d/e/1FAIpQLSdysyUVr4XYkkrYVORBVHXG4y_bt58BWUsCWtNFj0rBJRUuCQ/viewform?usp=sf_link)
 
 
 
@@ -143,7 +156,7 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 
 + [Презентация с материалами этой лекции](Presentations/Excursions_on_the_White_Sea/Море как среда обитания.pdf)
 
-+ [Викторина по теме  "Море как среда обитания"](https://docs.google.com/forms/d/e/1FAIpQLSckZorAnKe58mJnYNNyPQY3JgmjX5seFm1ntZZNuQzdnBJ-xA/viewform?usp=sf_link)
++ [Викторина по теме  "Море как среда обитания"](https://docs.google.com/forms/d/e/1FAIpQLSe30lDdcE6kEhzv4SjFQaJxgos609urGVOjgsq0G6AGFt6YfA/viewform?vc=0&c=0&w=1)
 
 
 ## Результаты викторины
