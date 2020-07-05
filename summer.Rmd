@@ -156,7 +156,7 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 
 + [Презентация с материалами этой лекции](Presentations/Excursions_on_the_White_Sea/Море как среда обитания.pdf)
 
-+ [Викторина по теме  "Море как среда обитания"](https://docs.google.com/forms/d/e/1FAIpQLSe30lDdcE6kEhzv4SjFQaJxgos609urGVOjgsq0G6AGFt6YfA/viewform?vc=0&c=0&w=1)
++ [Викторина по теме  "Море как среда обитания"](https://docs.google.com/forms/d/1JemQt-RsSXosNjkCvHa4o31eL2-bk8K4TKRJoi3MhX8/edit?usp=sharing)
 
 
 ## Результаты викторины
@@ -210,7 +210,9 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 
 + [Презентация с материалами этой лекции](Presentations/Excursions_on_the_White_Sea/Белое море.pdf)
 
-Викторина в процессе подготовки! Скоро выйдет.
+
+
++ [Викторина по теме  "Белое море"](https://docs.google.com/forms/d/e/1FAIpQLSe30lDdcE6kEhzv4SjFQaJxgos609urGVOjgsq0G6AGFt6YfA/viewform?vc=0&c=0&w=1)
 
 
 <!-- ## Прогулка третья.  -->
