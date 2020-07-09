@@ -215,8 +215,18 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 + [Викторина по теме  "Белое море"](https://docs.google.com/forms/d/e/1FAIpQLSe30lDdcE6kEhzv4SjFQaJxgos609urGVOjgsq0G6AGFt6YfA/viewform?vc=0&c=0&w=1)
 
 
-<!-- ## Прогулка третья.  -->
-<!-- + [Приливно-отливные явления. Литораль и ее строение]() -->
+## Прогулка третья. Приливы и отливы
+
++ [Вводное слово](https://youtu.be/QHgC66PMRqY) 
++ [Где проходит граница моря](https://youtu.be/Z8BYG4rbC3w)
++ [Механизмы формирования приливов и отливов. Часть 1](https://youtu.be/sogjmAfGAUM)
++ [Механизмы формирования приливов и отливов. Часть 2](https://youtu.be/H5eC6mxz8eI)
++ [Механизмы формирования приливов и отливов. Часть 3](https://youtu.be/xYGTZ7Niet4)
++ [Горизонты литорали](https://youtu.be/i66dGsgxYF8)
+
++ [Презентация с материалами этой лекции](Presentations/Excursions_on_the_White_Sea/Приливы и отливы.pdf)
+
++ [Викторина по теме  "Приливы и отливы"](https://docs.google.com/forms/d/e/1FAIpQLScpWwNZloIQQ0N8oAluhdH3O3g_XQVwHmLUsZV17TFLBbg_TQ/viewform?usp=sf_link)
 
 <!-- ## Прогулка четвертая.  -->
 <!-- + [Верхняя литораль]() -->
