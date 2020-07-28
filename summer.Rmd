@@ -184,7 +184,7 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-+ [Google-форма для вашей версии разгадки](https://docs.google.com/forms/d/e/1FAIpQLScIamDHoXLuaSyCxwFRRg6ElKM66yLc0hCGSnTpsNNcBtOdfQ/viewform?usp=sf_link)
+<!-- + [Google-форма для вашей версии разгадки](https://docs.google.com/forms/d/e/1FAIpQLScIamDHoXLuaSyCxwFRRg6ElKM66yLc0hCGSnTpsNNcBtOdfQ/viewform?usp=sf_link) -->
 
 # **Прогулки по морскому дну**
 
