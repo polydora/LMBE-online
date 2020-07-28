@@ -178,7 +178,7 @@ kable(events, col.names = c("Дата", "Мероприятие"))
 
 
 ## Загадка пятая. 
-+[Анонс!](https://youtu.be/cHFH9JUKkgo)
++ [Анонс!](https://youtu.be/cHFH9JUKkgo)
 
 
 
