@@ -1,0 +1,100 @@
+---
+title: "Распределение гагаям по литорали острова Ряжкова в августе 2020 г."
+author: "В. М. Хайтов"
+output: 
+      word_document:
+                fig_width: 5
+                fig_height: 5
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(reshape2)
+library(knitr)
+library(pander)
+library(doBy)
+library(ggplot2)
+library(gridExtra)
+library(dplyr)
+library(ggmap)
+library(ggrepel)
+
+
+
+theme_set(theme_bw())
+options(figcap.prefix = "Рисунок", figcap.sep = ".", figcap.prefix.highlight = "**" )
+
+
+
+# Функция, задающая нумерацию рисунков
+
+figRef <- local({
+    tag <- numeric()
+    created <- logical()
+    used <- logical()
+    function(label, caption, prefix = options("figcap.prefix"), 
+        sep = options("figcap.sep"), prefix.highlight = options("figcap.prefix.highlight")) {
+        i <- which(names(tag) == label)
+        if (length(i) == 0) {
+            i <- length(tag) + 1
+            tag <<- c(tag, i)
+            names(tag)[length(tag)] <<- label
+            used <<- c(used, FALSE)
+            names(used)[length(used)] <<- label
+            created <<- c(created, FALSE)
+            names(created)[length(created)] <<- label
+        }
+        if (!missing(caption)) {
+            created[label] <<- TRUE
+            paste0(prefix.highlight, prefix, " ", i, sep, prefix.highlight, 
+                " ", caption)
+        } else {
+            used[label] <<- TRUE
+            paste(prefix, tag[label])
+        }
+    }
+})
+
+
+```
+
+
+
+
+```{r}
+# Читаем данные
+bal <- read.table(file = "data/Pits.csv", header = T, sep = ",")
+bal$Lat <- bal$Lat/60 + 67
+bal$Long <- bal$Long/60 + 32
+
+
+load("data/Ryazh_map.RData")
+
+```
+
+
+
+
+``` {r, fig.cap=figRef("Stone", "Расположение гагаям на побережье о. Ряжков в августе 2020 г.")}
+
+bal2 <- bal %>% group_by(ID) %>% summarise_all(.funs = mean)
+
+
+ggmap(Ryazh_map,  base_layer=ggplot(data=bal2, aes(x=Long, y=Lat))) + geom_point(shape=21, fill="yellow", size = 2) + theme(axis.text = element_blank(), axis.title = element_blank(), axis.ticks = element_blank()) 
+
+```
+
+
+
+Для сопоставления карты распространения гагаям с характером распределения гаг по побережью острова нужно будет рассмотреть карту, на которой приведены стандартные выделы побережья, на которых проводится учет птиц, держащихся возле побережья. 
+
+![](data/Ryazhkov_bird_counting_segments.png)
+
+Рисунок 2. Стандартные выделы побережья острова Ряжкова, на которых проводится учет водоплавающих птиц.
+
+
+
+
+
