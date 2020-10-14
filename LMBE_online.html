@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +56,7 @@ h6 {
 
 <link rel="stylesheet" href="my_styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -72,7 +70,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -177,8 +174,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -223,6 +218,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -235,48 +231,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -290,6 +247,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -325,8 +288,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -341,6 +302,16 @@ div.tocify {
 }
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -427,7 +398,15 @@ pre { /* Code block - determines code spacing between lines */
 </style>
 <p><img style="float: center;" src="EMBLEM89.GIF" width="100"></p>
 <p><font color='red'> <strong>Внимание!</strong> Нажимая на ссылку <strong>“Видео”</strong>, вы скачиваете очень большой файл. </font>.</p>
-<div id="------.-.-" class="section level2">
+<div id="материалы-онлайн-занятий-2020-2021-учебного-года" class="section level1">
+<h1><strong>Материалы онлайн занятий 2020-2021 учебного года</strong></h1>
+<ul>
+<li>Онлайн-встреча по теме <a href="https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing">Многообразие протист</a></li>
+</ul>
+</div>
+<div id="материалы-онлайн-занятий-2019-2020-учебного-года" class="section level1">
+<h1><strong>Материалы онлайн занятий 2019-2020 учебного года</strong></h1>
+<div id="зоология-беспозвоночных-первый-год-изучения-ведущий-в.-м.-хайтов" class="section level2">
 <h2><strong>Зоология беспозвоночных первый год изучения</strong> (ведущий В. М. Хайтов)</h2>
 <ul>
 <li><p><a href="Presentations/VM_1st_year/Trematoda_VM.pptx">Сосальщики (Trematoda)</a></p></li>
@@ -438,7 +417,7 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="Presentations/VM_1st_year/Life_cycles_Nematoda_VM.pptx">Круглые черви (Nematoda): Жизненные циклы</a> <a href="https://drive.google.com/open?id=1aMlLpiXeV1_tyew75krHd_QZ2yBlg_IX"><strong>Видео</strong></a></p></li>
 </ul>
 </div>
-<div id="------.-.-" class="section level2">
+<div id="зоология-беспозвоночных-первый-год-изучения-ведущий-а.-в.-полоскин" class="section level2">
 <h2><strong>Зоология беспозвоночных первый год изучения</strong> (ведущий А. В. Полоскин)</h2>
 <ul>
 <li><a href="Presentations/AV_1st_year/Amoebozea.pdf">Амебы</a></li>
@@ -451,7 +430,7 @@ pre { /* Code block - determines code spacing between lines */
 <li><a href="Presentations/AV_1st_year/фотосинтезирующие_жгутиконосцы.pdf">Фотосинтезирующие жгутиконосцы</a></li>
 </ul>
 </div>
-<div id="------.-.-" class="section level2">
+<div id="зоология-беспозвоночных-второй-год-изучения-ведущий-в.-м.-хайтов" class="section level2">
 <h2><strong>Зоология беспозвоночных второй год изучения</strong> (ведущий В. М. Хайтов)</h2>
 <ul>
 <li><p><a href="Presentations/VM_1st_year/Планы%20строения%20животных_VM.pptx">Планы строения животных: Эволюционная инженерия</a></p></li>
@@ -467,7 +446,7 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="Presentations/VM_2nd_year/">Lophophorata</a> <a href="https://drive.google.com/open?id=1etmil2URhGWrN0_mQCf_qn0QLHhuE2cM"><strong>Видео Часть 1</strong>.</a> <a href="https://drive.google.com/open?id=1yC4CarJnX05cDJErDZgDJ5xzBc2FCKZR"><strong>Видео Часть 2</strong></a></p></li>
 </ul>
 </div>
-<div id="--.-.-" class="section level2">
+<div id="экология-ведущий-в.-м.-хайтов" class="section level2">
 <h2><strong>Экология</strong> (ведущий В. М. Хайтов)</h2>
 <ul>
 <li><p><a href="Presentations/Ecology/Симбиозы_адаптированная_версия_VM.pptx">Симбиозы</a> <a href="https://drive.google.com/open?id=1C-R7pEU2iaeUjqD5zZZuxmGTX4_Lmac6"><strong>Видео</strong> Первая лекция в онлайн режиме</a></p></li>
@@ -482,14 +461,14 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="Presentations/Ecology/Глоссарий.pdf">Список терминов, которыми должен уметь пользоваться эколог</a></p></li>
 </ul>
 </div>
-<div id="---.-.-" class="section level2">
+<div id="моря-россии-ведущий-а.-в.-полоскин" class="section level2">
 <h2><strong>Моря России</strong> (ведущий А. В. Полоскин)</h2>
 <ul>
 <li><p><a href="Presentations/AV_Russian_Seas/арктические%20моря.pdf">Арктические моря</a> <a href="https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-"><strong>Видео</strong></a></p></li>
 <li><p><a href="Presentations/AV_Russian_Seas/дальневосточные%20моря.pdf">Дальневосточные моря</a></p></li>
 </ul>
 </div>
-<div id="------.-.-" class="section level2">
+<div id="зоология-беспозвоночных-первый-год-изучения-ведущий-д.-а.-аристов" class="section level2">
 <h2><strong>Зоология беспозвоночных первый год изучения</strong> (ведущий Д. А. Аристов)</h2>
 <ul>
 <li><p><a href="http://hydrola.ru/smth/da/lmbe_online/Trematoda.pptx">Сосальщики (Trematoda)</a></p></li>
@@ -497,14 +476,14 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="http://hydrola.ru/smth/da/lmbe_online/Nemathelminthes.ppt">Первичнополостные черви (Nemathelminthes)</a></p></li>
 </ul>
 </div>
-<div id="------.-.-" class="section level2">
+<div id="зоология-беспозвоночных-второй-год-изучения-ведущий-д.-а.-аристов" class="section level2">
 <h2><strong>Зоология беспозвоночных второй год изучения</strong> (ведущий Д. А. Аристов)</h2>
 <ul>
 <li><p><a href="http://hydrola.ru/smth/da/lmbe_online/Tentaculata.pptx">Щупальцевые (Tentaculata)</a></p></li>
 <li><p><a href="http://hydrola.ru/smth/da/lmbe_online/Echinodermata.pptx">Иглокожие (Echinodermata)</a></p></li>
 </ul>
 </div>
-<div id="--.-.-" class="section level2">
+<div id="протистология-ведущий-п.-ю.-сафонов" class="section level2">
 <h2><strong>Протистология</strong> (ведущий П. Ю. Сафонов)</h2>
 <ul>
 <li><p><a href="Presentations/Protistology_presentations/01%20Вводная%20лекция.pptx">Вводная лекция</a></p></li>
@@ -515,14 +494,14 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="Presentations/Protistology_presentations/06%20Stramenopiles.pptx">Stramenopiles</a></p></li>
 </ul>
 </div>
-<div id="----.-.--.-.--.-.-" class="section level2">
+<div id="что-где-когда-ведущие-д.-а.-аристов-в.-м.-хайтов-а.-в.-полоскин" class="section level2">
 <h2><strong>Что? Где? Когда?</strong> (ведущие Д. А. Аристов, В. М. Хайтов, А. В. Полоскин)</h2>
 <ul>
 <li><a href="https://drive.google.com/open?id=1gdcP3gTWx7TQ3WV6mXhESEUR2uGOq5BI"><strong>Видео</strong>. Игра, прошедшая 25.04.2020</a></li>
 <li><a href="https://drive.google.com/open?id=1k6oka00q1sOVlioGvO1GQsSAkMVfrITs"><strong>Видео</strong>. Игра, прошедшая 14.05.2020</a></li>
 </ul>
 </div>
-<div id="-" class="section level2">
+<div id="виртуальные-экскурсии" class="section level2">
 <h2><strong>Виртуальные экскурсии</strong></h2>
 <ul>
 <li><a href="https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y">Дудергофские высоты <strong>Видео</strong></a></li>
@@ -534,7 +513,7 @@ pre { /* Code block - determines code spacing between lines */
 <li><a href="https://drive.google.com/file/d/1QK__2qwG-S_WEsTpxXwNsiAciwhx_twB/view?usp=sharing">Виртуальная Ящера: Зачет. Видео</a></li>
 </ul>
 </div>
-<div id="--" class="section level2">
+<div id="виртуальные-практические-работы" class="section level2">
 <h2><strong>Виртуальные практические работы</strong></h2>
 <ul>
 <li><p><a href="Presentations/Virtual_Practice/Cnidaria%20практика_VM.pptx">Кишечнополостные</a></p></li>
@@ -543,7 +522,7 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="Presentations/Virtual_Practice/Почвенная_фауна.pptx">Жители подстилки и почвы</a></p></li>
 </ul>
 </div>
-<div class="section level2">
+<div id="семинары" class="section level2">
 <h2><strong>Семинары</strong></h2>
 <ul>
 <li><p><a href="https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj">Научный семинар. Докладчики Марина Антропова, Олег Кириллов. <strong>Видео</strong></a></p></li>
@@ -553,13 +532,14 @@ pre { /* Code block - determines code spacing between lines */
 <li><p><a href="https://drive.google.com/open?id=1CmjMWqW-NFn8la_Yfm7OrQuzEl2vbWEJ">Тематический семинар “Зачет по курсу Зоологии беспозвоночных, первый год изучения” <strong>Видео</strong>.</a></p></li>
 </ul>
 </div>
-<div id="------56" class="section level2">
+<div id="разнообразие-живых-систем-работа-с-гимназией-56" class="section level2">
 <h2>Разнообразие живых систем (работа с гимназией №56)</h2>
 <ul>
 <li><p><a href="Presentations/School_56/Происхождение%20жизни.pptx">Происхождение жизни и тест по теме (недельные метериалы)</a></p></li>
 <li><p><a href="Presentations/School_56/Биосфера.pptx">Организация биосферы и тест по теме (недельные метериалы)</a></p></li>
 <li><p><a href="https://drive.google.com/file/d/1oeaRqqxEpK8J3fdafB5eS_wOBSWPVote/view?usp=sharing"><strong>Итоговый тест</strong></a></p></li>
 </ul>
+</div>
 </div>
 
 
@@ -580,6 +560,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
