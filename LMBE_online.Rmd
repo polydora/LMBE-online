@@ -2047,8 +2047,7 @@ kable(result, col.names = c("Учащиеся группы", "Результат
 
 
 06.04.20
-[Внутреннее строение моллюсков; Внутреннее строение двустворчатых моллюсков]((Presentations/VM_2nd_year/Mollusca _introduction_VM.pptx) [**Видео**](https://drive.google.com/open?id=1fL5cgfmtVelvQ7TY0Ho5WfozO42ENXGF)
-
+[Внутреннее строение моллюсков; Внутреннее строение двустворчатых моллюсков](Presentations/VM_2nd_year/Mollusca _introduction_VM.pptx) 
 
 
 ```{r, echo=FALSE}
