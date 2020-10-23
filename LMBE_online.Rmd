@@ -208,6 +208,104 @@ group312 <- c(
   "Карасева Ольга",
   "Нематова Рената")
 
+
+group139 <- c(
+  "Григорьева Софья",
+"Демиденко Евгения",
+"Егоров Владимир",
+"Ефимов Пётр",
+"Келембет Николай",
+"Кондырева Еира",
+"Кузнецова Софья",
+"Манцов Иван",
+"Немчинов Владимир",
+"Питоленко Глеб",
+"Смирнова Лидия",
+"Соколова Ксения",
+"Фофанова Елизавета",
+"Чагинская Мария",
+"Шипов Даниил")
+
+
+group218 <- c(
+"Александрова Арина",
+"Воронкова Анна",
+"Гордеев Иван",
+"Демиденко Александра",
+"Ильченко Даниил",
+"Новосельцева Надежда",
+"Орцева Юлия",
+"Садекова Рената",
+"Слепушкина Алиса",
+"Тормосов Егор",
+"Фан Анна")
+
+
+
+group311 <- c(
+"Белошенко Евгений",
+"Горчев Дмитрий",
+"Ефименко Екатерина",
+"Зенков Евгений",
+"Лобова Карина",
+"Ненонен Ирина",
+"Паршина Есения",
+"Шелых Георгий",
+"Юрков Глеб",
+"Юрьева Ангелина")
+
+
+
+group141 <- c(
+"Башилов Константин",
+"Богданова Светлана",
+"Гришанова Вероника",
+"Грошев Родион",
+"Девяткина Ульяна",
+"Ермошин Егор",
+"Мелешкин Юрий",
+"Наркевская Александра",
+"Русанов Кирилл",
+"Русанов Тимофей",
+"Семенова Елизавета",
+"Сухарев Артур",
+"Тагиров Гарри",
+"Федулов Андрей",
+"Чернобельская Валерия")
+
+
+
+group220 <- c(
+"Бондаренко Иван",
+"Волщева Ульяна",
+"Колеватых Елизавета",
+"Коробкова Мария",
+"Наколюшкина Ирина",
+"Паниткова Полина",
+"Полякова Софья",
+"Сорокина Ольга",
+"Тимченко Алевтина",
+"Чернецовский Арсений",
+"Шилонцев Андрей",
+"Щербаков Макар")
+
+
+
+group403 <- c(
+"Антропова Марина",
+"Белокуров Михаил",
+"Кириллов Олег",
+"Молодцова Анна",
+"Паршина Есения",
+"Романцова Софья",
+"Сизикова Ксения",
+"Степанов Андрей",
+"Шубина Виктория")
+
+
+
+
+
 set.seed(123456789)
   
 ```
@@ -1127,6 +1225,808 @@ kable(result, col.names = c("Учащиеся группы", "Результат
 result <- data.frame(Name = group312, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group312), replace = T))
 kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
 ```
+
+
+
+<br>
+<br>
+<br>
+
+## **Первый год обучения. Ведущий Д. А. Аристов (Группа 139)**
+
+10/04/20
+[Тип Иглокожие (Echinodermata); Вскрытие морской звезды](http://hydrola.ru/smth/da/lmbe_online/Echinodermata.pptx)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+17.04/20
+[Тип Щупальцевые (Tentaculata); Знакомство с колониями мшанок](Presentations/DA_1st_year/Lophophorata.ppt)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+18/04/20
+[Виртуальная экскурсия по местам полевой практики](https://ivbg.ru/podcast/gde-v-lenoblasti-obitayut-krasnoknizhnye-pticy-i-mozhno-li-sfotografirovat-medvedya)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+19/04/20
+[Виртуальный «выезд» по местам полевой практики](Presentations/AV_1st_year/первоцветы_экскурсия.pdf) 
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+24.04.20
+
+[Тип Хордовые (Chordata).; Комплексная контрольная работа](Presentations/VM_1st_year/Aspidogastrea Monogenea Cestodaria_VM.pptx)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+25/04/20
+
+[Совместный просмотр и обсуждение фильма “Океаны”](https://www.youtube.com/watch?v=x0skvwgV1AI)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+26/04/20
+[Виртуальная экскурсия по местам полевой практики](https://youtu.be/0NmRZptftPc)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+02/05/20
+
+[Виртуальная экскурсия по сайтам Зоологического института Обсуждение в онлайн конференции ZOOM](https://www.zin.ru/projects/neuromorphology/collections.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+03/05/20
+[Виртуальная экскурсия по Дудергофским высотам](https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+10/05/20
+[Виртуальная экскурсия по местам полевой практики](https://youtu.be/wUS7Ul559-E)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+15/05/20
+[ЗАНЯТИЕ Совместный просмотр и обсуждение  материалов по   многообразию птиц](https://www.youtube.com/watch?v=dCq61DyTJvA)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+16/05/20
+[Совместный просмотр и обсуждение фильма “В поисках невидимки”](https://www.youtube.com/watch?v=ssuSFph5Fpw)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+
+16/05/20
+[ВЫЕЗД Виртуальная экскурсия по Дудергофским высотам]((https://youtu.be/CnjPxZDYsBc))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+
+17/05/20
+[Виртуальная экскурсия по Дудергофским высотам]((https://drive.google.com/file/d/1QK__2qwG-S_WEsTpxXwNsiAciwhx_twB/view?usp=sharing))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+22/05/20
+[Итоговое занятие № 2. Учащиеся демонстрируют знания и практические навыки за отчетный период]((https://drive.google.com/open?id=1CmjMWqW-NFn8la_Yfm7OrQuzEl2vbWEJ))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+23/05/20
+[Совместный просмотр и обсуждение фильма “В поисках невидимки”](https://www.youtube.com/watch?v=ssuSFph5Fpw)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+24/05/20
+[Виртуальная экскурсия по Дудергофским высотам](https://vk.com/hydrolab?z=video-312524_456239030%2F6414cb680870529ded%2Fpl_wall_-312524)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+29/05/20
+[Виртуальное занятие в ZOOM-конференции по теме. Обсуждение видеоматериалов. Правила техники безопасности и оказание первой помощи; Демонстрация навыков оказания первой помощи](https://www.youtube.com/watch?v=SpNUCA3_0T8)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+29/05/20
+[Экскурсия Виртуальное практическое занятие по теме «Кишечнополостные»](Presentations/Virtual_Practice/Cnidaria практика_VM.pptx)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+31/05/20
+[Виртуальная экскурсия по Дудергофским высотам](https://vk.com/hydrolab?z=video-312524_456239030%2F6414cb680870529ded%2Fpl_wall_-312524)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+
+```
+
+
+
+06/06/20
+[Совместный просмотр и обсуждение фильма “Мир с высоты птичьего полета”](https://megogo.ru/ru/view/4075101-bbc-mir-s-vysoty-ptichego-poleta.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+
+07/06/20
+[Виртуальный выезд «Цвет в природе»](https://moscowseasons.com/event/archive/virtualnaia-ekskursiia-tsvet-v-prirode)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+13/06/20
+[Совместный просмотр фильма “Water life”](https://www.youtube.com/watch?v=IC6VqBbywBg)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group139, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group139), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+<!-- ++++++++++++++++++++++++ -->
+
+<br>
+<br>
+<br>
+
+
+## **Второй год обучения. Ведущий Д. А. Аристов (Группа 218)**
+
+25/03/20
+[Виртуальная Экскурсия в Зоологический музей ](https://www.zin.ru/projects/neuromorphology/collections.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+06/04/20
+[Краткий обзор современных методов статистики. Оценка вероятностей ошибок I и II рода](Presentations/FOO/04_hypothesis_testing.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+13/04/20
+[«Организация планеты Земля»](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx) 
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+15.04.20
+[Просмотр материалов биосеминара СПбГУ](https://bioseminars.wordpress.com/2020/03/09/%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c-%d0%bb%d0%b5%d0%ba%d1%86%d0%b8%d0%b8-%d0%ba%d0%be%d0%bd%d1%81%d1%82%d0%b0%d0%bd%d1%82%d0%b8%d0%bd%d0%b0-%d1%85%d0%b0%d0%bb%d1%82%d1%83%d1%80%d0%b8%d0%bd%d0%b0/)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+20/04/20
+[Онежское озеро. ](https://www.youtube.com/watch?v=Ubb5pfwg6xk)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+22/04/20
+[Просмотр материалов биосеминара СПбГУ](https://vk.com/videos-54669810?z=video-54669810_166896609%2Fpl_-54669810_-2)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+27/04/20
+[Моря России: Белое море и Баренцево море. Тест-викторина «Белое море и его обитатели»](Presentations/AV_Russian_Seas/арктические моря.pdf) 
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+29.04.20
+[Просмотр материалов биосеминара СПбГУ](https://bioseminars.wordpress.com/2020/02/01/%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c-%d0%bb%d0%b5%d0%ba%d1%86%d0%b8%d0%b8-%d0%bc%d0%b0%d1%80%d0%b8%d0%bd%d1%8b-%d0%bf%d0%b0%d0%bd%d0%be%d0%b2%d0%be%d0%b9/)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+11/05/20
+[Моря России: Арктика и Дальний Восток. Тест-викторина «Животные и растения Северных морей»](Presentations/AV_Russian_Seas/дальневосточные моря.pdf) 
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+13.05.20
+[Просмотр материалов биосеминара СПб](https://bioseminars.wordpress.com/2019/12/02/video-beringia/)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+18.05.20
+[Моря России: Атлантика. Тест-викторина «Животные Атлантического океана»]((Presentations/AV_Russian_Seas/дальневосточные моря.pdf))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+20/05/20
+[Просмотр материалов биосеминара СПбГУ](https://vk.com/video-54669810_166896606)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+25.05.20
+[Индийский океан. Устный опрос. Контроль знаний.](Presentations/Ecology/Глоссарий.pdf))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+27.05.20
+[Просмотр материалов биосеминара СПбГУ](https://bioseminars.wordpress.com/2018/11/02/modern-bio-systematics/)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+1/06/2020
+[Итоговое занятие в формате отчетной конференции](https://drive.google.com/open?id=1KVrRdsbB0wSk-3DvFqnrSZ28POkQTldC)
+
+
+3/06/20
+[Просмотр материалов биосеминара СПбГУ](https://bioseminars.wordpress.com/2011/12/31/ostrovski-coral-video/)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+8/06/20
+[Классификация и ординация. Коллоквиум и тест](Presentations/FOO/01_multivariate_data_and_dissimilarities.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group218, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group218), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+<br>
+<br>
+<br>
+
+
+
+
+## **Третий год обучения. Ведущий Д. А. Аристов (Группа 311)**
+
+26/03/20
+[Взаимоотношения между популяциями. Построение классификации взаимоотношений](Presentations/Ecology/Симфизиологические связи_VM.pptx) 
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+07/04/20
+[Теория конкуренции. Решение задач на оценку конкурентного исключения](Presentations/Ecology/Конкуренция адаптированная лекция_VM.pptx) 
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+14/04/20
+[Понятие биотопа. Построение классификации биотопов](Presentations/Ecology/Струткура сообщества адаптированная версия.pptx)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+16/04/20
+[Закономерности видового состава биоценозов. Анализ диаграмм обилия видов](Presentations/Ecology/Взаимоотношения часть 2_VM.pptx) 
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+19/04/20
+[Виртуальная экскурсия по местам полевой практики](https://ivbg.ru/podcast/gde-v-lenoblasti-obitayut-krasnoknizhnye-pticy-i-mozhno-li-sfotografirovat-medvedya)
+
+
+
+21/04/20
+[Элементы структуры биоценоза. Практикум по классификации методом Браун-Бланке](Presentations/Ecology/Трофические отношения. Адаптированная версия.pptx)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+23/04/20
+[Сукцессия и ее закономерности. Практикум по построению сукцессионных схем](Presentations/Ecology/Динамика сообществ.pptx) [**Видео часть 1**](https://drive.google.com/open?id=1n8Ia7zrTFeqRiQq2mEaVquL5QCNYjLLB) 
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+26/04/20
+[Совместный просмотр и обсуждение фильма “Океаны”](https://www.youtube.com/watch?v=x0skvwgV1AI)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+28/04/20
+[ОПТ (Особо охраняемые территории)]((https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+30/04/20
+[Просмотр материалов сайта Онлайн занятие по теме «Первоцветы» Обсуждение в ZOOM. Решение олимпиадных задач](Presentations/AV_1st_year/первоцветы_экскурсия.pdf)
+
+
+03/05/20
+[Виртуальный «выезд» по местам полевой практики](https://ivbg.ru/podcast/gde-v-lenoblasti-obitayut-krasnoknizhnye-pticy-i-mozhno-li-sfotografirovat-medvedya)
+
+
+
+10/05/20
+[Совместный просмотр и обсуждение фильма “Океаны”](https://www.youtube.com/watch?v=x0skvwgV1AI)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+12/05/20
+[Виртуальная работа Визуализация данных ](https://polydora.github.io/LMBE-online/data_science.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+14/05/20
+[Виртуальная работа Визуализация данных ](https://polydora.github.io/LMBE-online/data_science.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+17/05/20
+[Совместный просмотр и обсуждение фильма “В поисках невидимки”](https://www.youtube.com/watch?v=ssuSFph5Fpw)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+19/05/20
+[Виртуальная работа Язык статистического программирования R. Запуск готовых скриптов на языке R](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+21/05/20
+[Виртуальная работа Программирование на языке R. Написание скриптов на языке R](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+24/05/20
+[Совместный просмотр фильма “Мир воды”](https://www.youtube.com/watch?v=m4tN34xnMHg)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+26/05/20
+[Виртуальная работа Компьютер для исследователя. Тест по созданию отчетного документа R-Markdown](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+28/05/20
+[Итоговое занятие №2. Семинар по защите самостоятельных исследовательских работ]((https://drive.google.com/open?id=1V8SZMLRni4-6pFKs0MVcF0Tq-6vIemDj))
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+
+28/04/20
+[Совместный просмотр и обсуждение фильма “Мир с высоты птичьего полета”](https://megogo.ru/ru/view/4075101-bbc-mir-s-vysoty-ptichego-poleta.html)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+31/05/20
+[Совместный просмотр и обсуждение фильма “Мир с высоты птичьего полета”](https://megogo.ru/ru/view/4075101-bbc-mir-s-vysoty-ptichego-poleta.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+2/06/20
+[Необходимые программы для естествоиспытателя. Установка и настройка программы RStudio](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+4/06/20
+[Необходимые программы для естествоиспытателя. Установка и настройка программы RStudio](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+7/06/20
+[Совместный просмотр и обсуждение фильма “В поисках невидимки”](https://www.youtube.com/watch?v=ssuSFph5Fpw)
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+9/06/20
+[Программирование на языке R. Написание скриптов на языке R](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+11/06/20
+[Программирование на языке R. Написание скриптов на языке R](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+16/06/20
+[Программирование на языке R. Написание скриптов на языке R](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+
+18/06/20
+[Программирование на языке R. Написание скриптов на языке R](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group311, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group311), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
 
 
 <br>
