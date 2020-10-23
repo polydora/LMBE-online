@@ -2032,9 +2032,322 @@ kable(result, col.names = c("Учащиеся группы", "Результат
 <br>
 <br>
 <br>
+
+
+## **Первый год обучения. Ведущий А. В. Полоскин (Группа 141)**
+30.03.20
+[Насекомые и многоножки; Тест «Членистоногие»](Presentations/VM_1st_year/Планы строения животных_VM.pptx)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+06.04.20
+[Внутреннее строение моллюсков; Внутреннее строение двустворчатых моллюсков]((Presentations/VM_2nd_year/Mollusca _introduction_VM.pptx) [**Видео**](https://drive.google.com/open?id=1fL5cgfmtVelvQ7TY0Ho5WfozO42ENXGF)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+13.04.20
+[Тип Моллюски (Mollusca); Внешнее строение различных моллюсков](Presentations/VM_2nd_year/Mollusca_План строения_VM.pptx)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+17.04.20
+[Виртуальная экскурсия](Presentations/AV_1st_year/первоцветы_экскурсия.pdf)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+19.04.20
+[«Острова Белого моря»](https://www.youtube.com/watch?v=VSxOrmGFPL4)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+20.04.20
+[Биология моллюсков; Представители наиболее массовых классов моллюсков](Presentations/VM_2nd_year/Mollusca_Gastropoda_VM.ppt)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+27.04.20
+[Тип Иглокожие (Echinodermata); Вскрытие морской звезды](http://hydrola.ru/smth/da/lmbe_online/Echinodermata.pptx)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+04.05.2020
+[Тип Щупальцевые (Tentaculata); Знакомство с колониями мшанок](Presentations/VM_2nd_year/Олигомерные Trochozoa_VM.pptx)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+10.05.2020
+[Виртуальная экскурсия день победы «Шрамы земли на дороге к победе»](tourbuilder.withgoogle.com)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+11.05.2020
+[Тип Хордовые (Chordata).; Комплексная контрольная работа](Presentations/VM_1st_year/Планы строения животных_VM.pptx)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+15.05.20.20
+[Онлайн лекция СПБГУ](https://bioseminars.wordpress.com/2011/12/31/ostrovski-coral-video/)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+17.05.2020
+[Виртуальная экскурсия Можайская Воронья гора.](https://drive.google.com/open?id=12AKenN6N4SqqYkSbeTtFsLBrHcQ6403y)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+18.05.2020
+[Основные биотопы Ленинградской области. Основные приемы работы с полевыми определителями](https://www.youtube.com/watch?v=VSxOrmGFPL4)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+22.05.20.20
+[Игра квест «Этюд в желтых тонах»](https://youtu.be/8OHoBFeA1cU)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+24.05.20
+[Виртуальная полевая практика часть первая](https://vk.com/hydrolab?z=video-312524_456239030%2F6414cb680870529ded%2Fpl_wall_-312524)
+
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+25.05.2020
+[Итоговое занятие № 2. В формате отчетной конференции учащиеся демонстрируют знания и практические навыки, освоенные за отчетный период](https://drive.google.com/open?id=1KVrRdsbB0wSk-3DvFqnrSZ28POkQTldC)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+29.05.2020
+[Виртуальная экскурсия в океанариум](https://m.vk.com/oceandetyam?from=group&menu_opened)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+24.05.20
+[Виртуальная полевая практика часть вторая](https://youtu.be/wUS7Ul559-E)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+1.06.2020
+[Орнитофауна Ленинградской области. Определение птиц и следов жизнедеятельности](https://youtu.be/0NmRZptftPc)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+7.06.2020
+[Выездное виртуальное гидробиологическое занятие с гидробиологом, сотрудником кафедры гидробиологии СПбГУ и ИПЭЭ РАН им. Северцова, Поляковой Натальей Владимировной](https://cloud.mail.ru/stock/dVpNZCvSroKUkzqmUgGuHP3t)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+8.06.2020
+[Правила техники безопасности и оказание первой медицинской помощи. Демонстрация навыков оказания первой помощи](https://www.youtube.com/watch?v=SpNUCA3_0T8)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+15.06.20
+[Насекомые и многоножки; Тест «Членистоногие»](Presentations/Virtual_Practice/Insecta практика_VM.pptx)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group141, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group141), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
 <br>
 <br>
 <br>
+
+## **Второй год обучения. Ведущий А. В. Полоскин (Группа 220)**
+
+01.04.2020
+[Подготовка к путешествию. Тест-викторина «Организация планеты Земля»]([**Видео**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
+
+07.04.2020
+[Зоологический музей](https://www.zin.ru/museum/virtual_tour/)
+
+08.04.2020
+[Ладожское озеро. Тест-викторина «Ладога»]([**Видео**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
+
+15.04.2020
+[Белое море и Баренцево море. Тест-викторина «Белое море и его обитатели»](Presentations/AV_Russian_Seas/арктические моря.pdf)
+
+22.04.2020
+[Арктика и Дальний Восток. Тест-викторина «Животные и растения Северных морей»](Presentations/AV_Russian_Seas/дальневосточные моря.pdf)
+
+
+
+29.04.2020
+[Атлантика. Тест-викторина «Животные Атлантического океана»](Presentations/AV_Russian_Seas/дальневосточные моря.pdf)
+
+
+05.05.2020
+[День пожарных инструктаж по противопожарной безопасности](https://kkot44.ru/wp-content/uploads/2017/07/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BE-%D0%BC%D0%B5%D1%80%D0%B0%D1%85-%D0%BF%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D0%BE%D0%B9-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8.pdf)
+
+06.05.2020
+[Индийский океан. Устный опрос. Контроль знаний.](https://vk.com/hydrolab)
+
+
+12.05.2020
+[Виртуальная экскурсия день победы «Шрамы земли на дороге к победе»](tourbuilder.withgoogle.com)
+
+
+13.05.2020
+[Классификация и ординация. Коллоквиум и тест](Presentations/FOO/01_multivariate_data_and_dissimilarities.html)
+
+19.05.2020
+[Весенние голоса виртуальная экскурсия](https://megogo.ru/ru/view/4075101-bbc-mir-s-vysoty-ptichego-poleta.html)
+
+20.05.2020
+[Итоговое занятие № 2. В формате отчетной конференции](https://drive.google.com/open?id=1Y3nl67u0kKjBjR70jzvjxXoAAoFJWVOY) 
+
+26.05.2020
+[На ящере виртуальная экскурсия](https://drive.google.com/file/d/1QK__2qwG-S_WEsTpxXwNsiAciwhx_twB/view?usp=sharing)
+
+27.05.20
+[Краткий обзор современных методов статистики. Оценка вероятностей ошибок I и II рода](Presentations/FOO/04_hypothesis_testing.html)
+
+
+
+
 
 # ***Тематический каталог онлайн занятий 2019-2020 учебного года**
 
