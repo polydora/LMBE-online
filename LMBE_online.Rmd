@@ -2300,6 +2300,7 @@ kable(result, col.names = c("Учащиеся группы", "Результат
 01.04.2020
 [Подготовка к путешествию. Тест-викторина «Организация планеты Земля»]([**Видео**](https://drive.google.com/open?id=1nba-99qJ-x1i55owlC3I7d8AesY7Ku2-)
 
+
 07.04.2020
 [Зоологический музей](https://www.zin.ru/museum/virtual_tour/)
 
@@ -2345,6 +2346,258 @@ kable(result, col.names = c("Учащиеся группы", "Результат
 [Краткий обзор современных методов статистики. Оценка вероятностей ошибок I и II рода](Presentations/FOO/04_hypothesis_testing.html)
 
 
+
+## **Четвертый год обучения. Ведущий А. В. Полоскин (Группа 403)**
+
+26.03.2020
+[Умозаключения.Выявление логических ошибок.](https://polydora.github.io/LMBE-online/advanced_r.html)  
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+28.03.2020
+[Логические ошибки и борьба с ними. Вычленение. логики введения.](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+02.04.2020
+[Исследовательская работа - арена логических построений. Вычленение логики изложения.](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+09.04.2020
+[Карта материала. логики обсужения.](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+11.04.2020
+[Особенности биологии как науки. разбор научной работы с точки зрения логики.](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+16.04.2020
+[Профессиональная наука. Оценка классических и современных научных работ](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+18.04.2020
+[Научное сообщество. Составление заявки на грант](https://polydora.github.io/LMBE-online/advanced_r.html)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+23.04.2020
+[Что такое человек? Поиск литературы по теме: что такое человек.](FOO/Генетика и эволюция.ppt)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+25.04.2020
+[Какими они были - наши предки? Анализ палеореконструкций предков человека.](FOO/Реконструпруем облик предка.ppt)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+26.04.2020
+[Виртуальная экскурсия](https://youtu.be/0NmRZptftPc)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+30.04.2020
+[Эволюция ближайших предков человека. Поиск литературы по теме: ближайшие предки человека. ](Галерея древних гоминид 1.ppt)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+03.05.2020
+[Выезд в Лужский район Ленинградской области, ст.Толмачево.](ttps:h//vk.com/video-312524_456239032) 
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+07.05.2020
+[Поведенческие программы у человека Разбор известных жизненных ситуаций.](https://youtu.be/SMfdEc3HxXg) 
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+10.05.2020
+[Виртуальная экскурсия день победы «Шрамы земли на дороге к победе» просмотр военной кинохроники.](tourbuilder.withgoogle.com)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+14.05.2020
+[Агрессия. Разбор агрессивного поведения.](https://yandex.ru/efir?stream_id=4918347eec93bcf89f83368f770ab55d&from_block=player_context_menu_yavideo)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+16.05.2020
+[Мужчина и женщина. Поиск литературы по теме Мужчина и женщина](https://youtu.be/iQKKdZfDeRk)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+17.05.2020
+[День корюшки просмотр темы](https://vk.com/@hydrolab-korushka)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+02.04.2020
+[Логические ошибки и борьба с ними. Вычленение. логики введения.](https://youtu.be/ED3IHeUez8A)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+23.05.2020
+[Жизнь в обществе и биология культуры. Анализ мимов.](https://youtu.be/_STofgFxD8s)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+24.05.2020
+[Чтение полезной литературы в скайпе](https://youtu.be/p9yIzN3-K5E)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+28.05.2020
+[Итоговое занятие №2. Cеминар.](https://drive.google.com/open?id=1KVrRdsbB0wSk-3DvFqnrSZ28POkQTldC)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+31.05.2020
+[Виртуальный выезд на Ящеру](https://vk.com/@-142074-kto-zdes-hischnik)
+
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+7.06.2020
+[Весенняя онлайн практика ](https://vk.com/@-142074-master-klass-izgotovlenie-gidrobiologicheskogo-sachka)
+
+
+```{r, echo=FALSE}
+
+result <- data.frame(Name = group403, Result = sample(c("5", "4", "3", "не сдавал"), size = length(group403), replace = T))
+kable(result, col.names = c("Учащиеся группы", "Результат тестирования"),caption = "Результаты оценочного теста")
+```
+
+
+<br>
+<br>
 
 
 
