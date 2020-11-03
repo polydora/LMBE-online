@@ -42,10 +42,9 @@ opts_chunk$set(echo = FALSE)
 
 
 
-<br>
-<br>
 
-##  Создаем сложный html-файл
+
+## **Часть 2.** Создаем сложный html-документ 
 
 - [файл, который мы будем создавать](data/Сложный файл.html) 
 
@@ -54,11 +53,10 @@ opts_chunk$set(echo = FALSE)
 - [Данные файл 3](data/Astfood_Asterias_2019.csv)
 
 
-<br>
-<br>
-<br>
 
 
+<br>
+<br>
 
 
 
