@@ -53,25 +53,37 @@ pre { /* Code block - determines code spacing between lines */
 
 ## **Тематические онлайн занятия**
 
-+ Онлайн-встреча по теме ***Многообразие протист***    
+
+### Онлайн-встречи по теме **"Зоология беспозвоночных"** 
+- ***Многообразие протист***    
 [Презентация](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)    
 [Видео](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)
 
-+ Онлайн-встреча по теме ***Строение клеток протист: Строение клеточной мембраны***    
+- ***Строение клеток протист: Строение клеточной мембраны***    
 [Видео](https://drive.google.com/file/d/16kasWrIHc6F7CevhbcsMxwAET7sraeK0/view?usp=sharing)
 
 
+- **"Жизненные циклы нематод"** [Презентация](Presentations/VM_1st_year/Life_cycles_Nematoda_VM.pptx) [Видео](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing)
+
+<br>
+<br>
+
+### Онлайн-встречи по теме **"Эволюция целовека"** 
+
+- [Половой отбор](https://drive.google.com/file/d/1SPebmaY34JYEmdjttu0bIdtIPUQGSeUb/view?usp=sharing)
+- [Первые находки ископаемых гоминид](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing)
+<br>
 <br>
 
 
-<br>
-<br>
+
+### Общие сборы и семнары
+
+[Общий сбор 12.11.2020 перед переходом на дистанционное обучение](https://drive.google.com/file/d/1X46Fy7R0DgHSAj2HiN4Fm_2PT-6REMU5/view?usp=sharing)
 
 
 
-
-
-##  **Курс** ***Выполнение самостоятельной исследовательской работы*** 
+###  **Курс** ***Выполнение самостоятельной исследовательской работы*** 
 
 В курсе «Выполнение самостоятельной исследовательской работы» вам предстоит войти в виртуальный научный коллектив, который совместно будет решать научную задачу. Вам нужно будет просматривать видеоматериалы и выполнять задания. Видео и задания будут появляться в доступе по мере развития нашего исследования. 
 
