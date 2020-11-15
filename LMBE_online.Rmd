@@ -55,15 +55,20 @@ pre { /* Code block - determines code spacing between lines */
 
 
 ### Онлайн-встречи по теме **"Зоология беспозвоночных"** 
-- ***Многообразие протист***    
-[Презентация](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)    
-[Видео](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)
-
-- ***Строение клеток протист: Строение клеточной мембраны***    
-[Видео](https://drive.google.com/file/d/16kasWrIHc6F7CevhbcsMxwAET7sraeK0/view?usp=sharing)
+- [***Многообразие протист*** Презентация](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)    
 
 
-- **"Жизненные циклы нематод"** [Презентация](Presentations/VM_1st_year/Life_cycles_Nematoda_VM.pptx) [Видео](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing)
+- [***Строение клеток протист*** Видео](https://drive.google.com/file/d/16kasWrIHc6F7CevhbcsMxwAET7sraeK0/view?usp=sharing)
+[Презентация](Presentations/VM_1st_year/Клетки протистов.pptx)
+
+
+- [**"Жизненные циклы нематод"** Презентация](Presentations/VM_1st_year/Life_cycles_Nematoda_VM.pptx) [Видео](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing)
+
+
+- [***Устройство эукариотической клетки*** (читает ДА). Видео](http://hydrola.ru/smth/da/distant/Cell_DA.mp4)
+
+- [***Жизненные циклы протист*** (читает ВМ). Видео. ](https://drive.google.com/file/d/1uEAG46zzKd8P7sghuYMLMlOq-i1ar9dw/view?usp=sharing)
+[Презентация](Presentations/VM_1st_year/Жизненный цикл Protista.pptx)
 
 <br>
 <br>
@@ -81,7 +86,10 @@ pre { /* Code block - determines code spacing between lines */
 
 [Общий сбор 12.11.2020 перед переходом на дистанционное обучение](https://drive.google.com/file/d/1X46Fy7R0DgHSAj2HiN4Fm_2PT-6REMU5/view?usp=sharing)
 
+[Выборы в члены Лаборатории. 14.11.20](https://drive.google.com/file/d/1Y2xzFxFEQKcCKjqzDC0wDvCqpoo9Dtc1/view?usp=sharing)
 
+<br>
+<br>
 
 ###  **Курс** ***Выполнение самостоятельной исследовательской работы*** 
 
