@@ -67,6 +67,8 @@ opts_chunk$set(echo = FALSE)
 
 <br>
 
+## **Часть 3.** Создаем презентацию в формате html-документа  
+
 **Задание №3.**
 
 Вам нужно будет создать вот такой [html-документ](data/Khaitov_presentation_dept_Hydrobiology_simplified.html), пользуясь материалами, которые нахрдятся в файле[ "Constructor.zip"](data/Constructor.zip)
