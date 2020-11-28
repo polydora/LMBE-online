@@ -55,6 +55,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 ### Онлайн-встречи по теме **"Зоология беспозвоночных" Первый год изучения** 
+
 - [***Многообразие протист*** Презентация](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)    
 
 
@@ -67,6 +68,14 @@ pre { /* Code block - determines code spacing between lines */
 - [***Жизненные циклы протист*** (читает ВМ). Видео. ](https://drive.google.com/file/d/1uEAG46zzKd8P7sghuYMLMlOq-i1ar9dw/view?usp=sharing)
 [Презентация](Presentations/VM_1st_year/Жизненный цикл Protista.pptx)
 
+
+- [***Происхождение многоклеточных животных*** (читает ВМ). Видео. ](https://drive.google.com/file/d/1BN_GYqBzSArHQV7IxI7UJ8dM-qLXmw53/view?usp=sharing)
+[Презентация](https://drive.google.com/file/d/148e7NWQvFr1hH-as-KkPzCZz1EDdThFT/view?usp=sharing)
+
+- [***Губки*** (читает ВМ). Видео. ]()
+[Презентация](https://drive.google.com/file/d/1ks5gwdI0PNx7oEYK7KhAmU96WK9X87jG/view?usp=sharing)
+
+- [**Глоссарий по темам "Основы систематики", "Строение эукариотической клетки", "Protista", "жизненные циклы протистов"** Для подготовки к зачету](Presentations/VM_1st_year/TERMS Zoology first part.pdf)
 <br>
 <br>
 
@@ -83,7 +92,14 @@ pre { /* Code block - determines code spacing between lines */
 ### Онлайн-встречи по теме **"Эволюция целовека"** 
 
 - [Половой отбор](https://drive.google.com/file/d/1SPebmaY34JYEmdjttu0bIdtIPUQGSeUb/view?usp=sharing)
-- [Первые находки ископаемых гоминид](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing)
+
+- [Первые находки ископаемых гоминид](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing) 
+
+- [Происхождение бипедии. Австралопитеки. Видео](https://drive.google.com/file/d/1ZRp0AL8Rtn4s6hP7n_XzuNdVWoaeN6BT/view?usp=sharing) [Презентация](https://drive.google.com/file/d/18TppcN2Igqe8nLNVawvkQ34GB2ZNIg2g/view?usp=sharing)
+
+- [Ранние люди. Окончательное решение неандертальского вопроса](https://drive.google.com/file/d/18-feaGJRhVtUzxIstXS8NBfH-IY96mwG/view?usp=sharing) [Презентация](https://drive.google.com/file/d/1q688G3gRW_0RHaXKRmqX032UbAEKrfA6/view?usp=sharing)
+
+
 <br>
 <br>
 
