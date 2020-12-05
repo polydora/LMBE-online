@@ -54,7 +54,7 @@ pre { /* Code block - determines code spacing between lines */
 ## **Тематические онлайн занятия**
 
 
-### Онлайн-встречи по теме **"Зоология беспозвоночных" Первый год изучения** 
+### **Онлайн-встречи по теме** **"Зоология беспозвоночных" Первый год изучения** 
 
 - [***Многообразие протист*** Презентация](https://drive.google.com/file/d/1nnH554uwYvTkurUz3GpxGu09Ra5De3k8/view?usp=sharing)    
 
@@ -76,20 +76,31 @@ pre { /* Code block - determines code spacing between lines */
 [Презентация](https://drive.google.com/file/d/1ks5gwdI0PNx7oEYK7KhAmU96WK9X87jG/view?usp=sharing)
 
 - [**Глоссарий по темам "Основы систематики", "Строение эукариотической клетки", "Protista", "жизненные циклы протистов"** Для подготовки к зачету](Presentations/VM_1st_year/TERMS Zoology first part.pdf)
+
+- [**А вот и сам зачет**](https://docs.google.com/forms/d/e/1FAIpQLSdU_qRIZI75Vd_GVHW98kVq753uac8pvtpQ50bRCumPiXoG1g/viewform?usp=sf_link). Можно его пройти. Правда, результаты придется получать в частном порядке (можно написать ВМ письмо с просьбой прислать результат). Рекомендуется пройти его еще раз и тем, кто сдавал его вместе со всеми.
+
+
+
+
+
+
 <br>
 <br>
 
-### Онлайн-встречи по теме **"Зоология беспозвоночных" Второй год изучения** 
+### **Онлайн-встречи по теме** **"Зоология беспозвоночных" Второй год изучения** 
 
 - [**"Жизненные циклы нематод"** Презентация](Presentations/VM_1st_year/Life_cycles_Nematoda_VM.pptx) [Видео](https://drive.google.com/file/d/1zdGqR1KC0DO5oF1JnrrH518_uXaoAY6F/view?usp=sharing)
 
 
 - [**"Головохоботные черви"** Презентация](Presentations/VM_2nd_year/Scalidophora.pptx) [Видео](https://drive.google.com/file/d/1nUct7-fm9krgiqg8rn98UuJbbLxScG_0/view?usp=sharing)
 
+- [**"Ракообразные. Часть 1."** Презентация](https://drive.google.com/file/d/1G6vKfMd2fDUzNT4JdZ4nLMWuS43mPvFA/view?usp=sharing) [Видео](https://drive.google.com/file/d/1B2QQvjP9fuHLzOBZaGxj978X2JvbeIPA/view?usp=sharing)
+
+
 <br>
 <br>
 
-### Онлайн-встречи по теме **"Эволюция целовека"** 
+### **Онлайн-встречи по теме** **"Эволюция целовека"** 
 
 - [Половой отбор](https://drive.google.com/file/d/1SPebmaY34JYEmdjttu0bIdtIPUQGSeUb/view?usp=sharing)
 
@@ -99,13 +110,14 @@ pre { /* Code block - determines code spacing between lines */
 
 - [Ранние люди. Окончательное решение неандертальского вопроса](https://drive.google.com/file/d/18-feaGJRhVtUzxIstXS8NBfH-IY96mwG/view?usp=sharing) [Презентация](https://drive.google.com/file/d/1q688G3gRW_0RHaXKRmqX032UbAEKrfA6/view?usp=sharing)
 
+- [**А вот и зачет**](https://docs.google.com/forms/d/e/1FAIpQLSdU_qRIZI75Vd_GVHW98kVq753uac8pvtpQ50bRCumPiXoG1g/viewform?usp=sf_link). Можно его пройти *еще раз*. Защитаем самый лучший ответ! 
 
 <br>
 <br>
 
 
 
-### Общие сборы и семинары
+### **Общие сборы и семинары**
 
 [Общий сбор 12.11.2020 перед переходом на дистанционное обучение](https://drive.google.com/file/d/1X46Fy7R0DgHSAj2HiN4Fm_2PT-6REMU5/view?usp=sharing)
 
@@ -114,6 +126,14 @@ pre { /* Code block - determines code spacing between lines */
 <br>
 <br>
 
+### **Онлайн развлечения**
+
+- [Что? Где? Когда? В роли крупье Константин Галиевский](https://drive.google.com/file/d/1r1pMSX-Hi5L78yuyZVBSBLZxDg1uc1Bc/view?usp=sharing)
+
+
+
+<br>
+<br>
 ###  **Курс** ***Выполнение самостоятельной исследовательской работы*** 
 
 В курсе «Выполнение самостоятельной исследовательской работы» вам предстоит войти в виртуальный научный коллектив, который совместно будет решать научную задачу. Вам нужно будет просматривать видеоматериалы и выполнять задания. Видео и задания будут появляться в доступе по мере развития нашего исследования. 
@@ -147,7 +167,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-**Какие бывают научные исследования?** -->
+**Какие бывают научные исследования?**
 
 + [Какие бывают научные исследования?](https://youtu.be/T7i9qeg52M4)
 
@@ -155,7 +175,7 @@ pre { /* Code block - determines code spacing between lines */
 
 <br>
 
-**Работа с  научной литературой** -->
+**Работа с  научной литературой** 
 
 + [Работа с научной литературой](https://youtu.be/qWBSOOh2V2Y)
 
