@@ -10,9 +10,10 @@ for(i in 1:nrow(base)){
   adress <-  as.character(base$Mail[i])
     send.mail(from = "polydora@rambler.ru",
               to = adress,
-              subject = "Домашнее задание УИД!", 
+              subject = "Домашнее задание УИД! Прошлое письмо было ошибочным!", 
               body =  "Data/letter2.txt",
-              attach.files = "Data/Список гипотез о гагаямах.docx",
+              
+              # attach.files = "Data/Список гипотез о гагаямах.docx",
               smtp = list(host.name = "smtp.rambler.ru",port = 465,
                                        user.name = "Polydora",            
                                        passwd = "Mussel", ssl = TRUE),
