@@ -81,7 +81,16 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Митоз, Мейоз, Бесполое и половое размножение** (Читает ДА) Видео часть 1](http://hydrola.ru/smth/da/distant/1y_11_12_20_1part.mp4) [Видео часть 2](http://hydrola.ru/smth/da/distant/1y_11_12_20_2part.mp4)
 
+- [**Placozoa. Презентация**](https://drive.google.com/file/d/11KlgQ9R4aTnuZJdKspFINV16x2faMAPt/view?usp=sharing)
+- [**Cnidaria. Презентация Часть 1.**](https://drive.google.com/file/d/1WPWwUXm0X6OfPQTQvhorWB3UqiXU9-vc/view?usp=sharing)
 
+- [**Видео. Placozoa. Cnidaria. Рассказывает ВМ**](https://drive.google.com/file/d/1gdmw1mYMYhgFs9aBxlQSq8T0HMW_GMVh/view?usp=sharing)
+
+- [**Видео. Разнообразие насекомых. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_17_11_20.mp4)
+
+- [**Видео. Внутреннее строение аннелид. Рассказывает ДА**](https://us02web.zoom.us/rec/share/C4vpCfn3ybhZC3myLGB7Bkkgl2rEFxwyD2wDAFST7DEps1jgdP7XBt3478cm5HNN.lHk6V_6PkT2u-zIS?startTime=1607436405000)
+
+- [**Видео. Размножение и развитие аннелид. Рассказывает ДА**](https://us02web.zoom.us/rec/share/mlb7DfF0TonYbj0oBjiEkrqf11FPN6DJlnPthKcmnKetvTQxw9yoDg02WUxxsqdE.J5pQsiUP4oKO5APM?startTime=1608040589000)
 
 
 
@@ -132,7 +141,7 @@ pre { /* Code block - determines code spacing between lines */
 
 ### **Онлайн-встречи по теме** **Зоология Позвоночных"** 
 
-- [Бесчерепные. Перзентация](https://drive.google.com/file/d/1wRLNhqwIsAnVb0B50hHKSqxLVf7JiXWi/view?usp=sharing) [Видео](https://drive.google.com/file/d/1AEC7QEom1iImgAi5ELEO2iN9NYfHCGZt/view?usp=sharing)
+- [Бесчерепные. Перзентация](https://drive.google.com/file/d/1wRLNhqwIsAnVb0B50hHKSqxLVf7JiXWi/view?usp=sharing) [Видео. Расскзывает ВС](https://drive.google.com/file/d/1AEC7QEom1iImgAi5ELEO2iN9NYfHCGZt/view?usp=sharing)
 
 
 <br>
