@@ -154,8 +154,7 @@ pre { /* Code block - determines code spacing between lines */
 - [Бесчерепные. Перзентация](https://drive.google.com/file/d/1wRLNhqwIsAnVb0B50hHKSqxLVf7JiXWi/view?usp=sharing) [Видео. Расскзывает ВС](https://drive.google.com/file/d/1AEC7QEom1iImgAi5ELEO2iN9NYfHCGZt/view?usp=sharing)
 
 
-<!-- - [Круглоротые. Перзентация]()  -->
-<!-- [Видео. Расскзывает ВС]() -->
+- [Круглоротые. Перзентация](https://drive.google.com/file/d/1flq8Obi6EhtSGEBNw6gGifR7qm-_ur8w/view?usp=sharing) [Видео. Рассказывает ВС](https://drive.google.com/file/d/1flq8Obi6EhtSGEBNw6gGifR7qm-_ur8w/view?usp=sharing)
 
 
 <br>
