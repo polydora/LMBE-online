@@ -87,10 +87,12 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Видео. Placozoa. Cnidaria. Рассказывает ВМ**](https://drive.google.com/file/d/1gdmw1mYMYhgFs9aBxlQSq8T0HMW_GMVh/view?usp=sharing)
 
-- [**Видео. Разнообразие насекомых. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_17_11_20.mp4)
++ [**Видео. Разнообразие насекомых. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_17_11_20.mp4)
 
 + [**Амебоидные протисты. Видео. Рассказывает ДА.**](http://hydrola.ru/smth/da/distant/1y_18_12_20.mp4)
 
+
++ [**Кишечнополостные. Практическая работа.**](Presentations/Virtual_Practice/Cnidaria практика_VM.pptx)
 
 
 <br>
