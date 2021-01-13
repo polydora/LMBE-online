@@ -9,7 +9,8 @@ base <- read.table("Data/56_schoole_2020.csv", sep = ",", header = T)
 for(i in 1:nrow(base)){
   adress <-  as.character(base$Mail[i])
     send.mail(from = "polydora@rambler.ru",
-              to = adress,
+               to = adress,
+              # to = "polydora@rambler.ru",
               subject = "УИД и Экология во втором полугодии", 
               body =  "data/letter_UID.txt",
               
