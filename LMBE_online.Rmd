@@ -87,12 +87,23 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Видео. Placozoa. Cnidaria. Рассказывает ВМ**](https://drive.google.com/file/d/1gdmw1mYMYhgFs9aBxlQSq8T0HMW_GMVh/view?usp=sharing)
 
-+ [**Видео. Разнообразие насекомых. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_17_11_20.mp4)
-
 + [**Амебоидные протисты. Видео. Рассказывает ДА.**](http://hydrola.ru/smth/da/distant/1y_18_12_20.mp4)
 
 
-+ [**Кишечнополостные. Практическая работа.**](Presentations/Virtual_Practice/Cnidaria практика_VM.pptx)
++ [**Кишечнополостные. Практическая работа.**](Presentations/Virtual_Practice/Cnidaria практика_VM.pptx) [Видео. Ведущий ВМ](https://drive.google.com/file/d/1nwzfn5Dk_UGme7A2q357xYNiTl5up5N-/view?usp=sharing)
+
++ [**Строение кишечнополостных. Видео. Рассказывает ВМ**](https://drive.google.com/file/d/1KhT4GDrwd546cpjz07HeKVcDI82tEG7Q/view?usp=sharing)
+
++ [**Кишечнополостные. Жизненные циклы.**](https://drive.google.com/file/d/124lClyiHrZuA1fh8f1X9Jd_Rl2oiUCJn/view?usp=sharing) [Видео. Рассказывает ВМ](https://drive.google.com/file/d/1wuEtCa640tdRilaf-pLxlrIN6JCK7qzd/view?usp=sharing)
+
++ [**Подводим итоги по двуслойным животным**](https://drive.google.com/file/d/1ieJwecLW1KiUzdVu0HgKXigf6qi98-E9/view?usp=sharing) [Видео. Рассказывает ВМ](https://drive.google.com/file/d/1zPJes6p4n-EUzEMBv45yZEdanK9U490B/view?usp=sharing)
+
+
++ [**Alveolata. Видео. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/1y_15_01_21.mp4)
+
+
+
+
 
 
 <br>
@@ -111,26 +122,36 @@ pre { /* Code block - determines code spacing between lines */
 
 *Домашнее задание* Ваше домашнее задание заключается в том, чтобы самостоятельно разобраться с внешней морфологией раков. Для этого вам нужно будет купить в магазине "OKей" речного рака. 
 
-<font color='red'>
+<!-- <font color='red'> -->
 
-**Внимание!**      
-Раки в магазине "ОКей" продаются **живыми**, увы. Вообще-то это еда и мало у кого получается съесть животное и не навредить ему. Поэтому раков придется предварительно умертвить. Гуманно это сделать можно, положив покупку на сутки в *морозилку*. Если вам это сделать не позволяют принципы или иные ограничения, то тогда можно купить мороженных креветок и работать с ними (они мелкие, но их строение такое же как и у речного рака). Если и это претит вашим принципам, то можете найти в интернете изображения и поработать с ними.
+<!-- **Внимание!**       -->
+<!-- Раки в магазине "ОКей" продаются **живыми**, увы. Вообще-то это еда и мало у кого получается съесть животное и не навредить ему. Поэтому раков придется предварительно умертвить. Гуманно это сделать можно, положив покупку на сутки в *морозилку*. Если вам это сделать не позволяют принципы или иные ограничения, то тогда можно купить мороженных креветок и работать с ними (они мелкие, но их строение такое же как и у речного рака). Если и это претит вашим принципам, то можете найти в интернете изображения и поработать с ними. -->
 
-</font>
+<!-- </font> -->
 
 
-При работе с объектом (рак, креветка или изображение) надо найти и сфоткать на смартфон (ну или фотоаппарат в режиме *макро*) внешний вид животного. Подписать на объекте тагмы. Потом отделить и сфотографировать  А1, А2, ротовые конечности (Md, Mx1, Mx2, Mxp1, Mxp2, Mxp3), одну из ходных ног, одну из плеопод и уроподу. Фотки надо соединить в одну презентацию и присылать ее на адрес ВМ до 23:59 дня, накануне следующего занятия. 
+<!-- При работе с объектом (рак, креветка или изображение) надо найти и сфоткать на смартфон (ну или фотоаппарат в режиме *макро*) внешний вид животного. Подписать на объекте тагмы. Потом отделить и сфотографировать  А1, А2, ротовые конечности (Md, Mx1, Mx2, Mxp1, Mxp2, Mxp3), одну из ходных ног, одну из плеопод и уроподу. Фотки надо соединить в одну презентацию и присылать ее на адрес ВМ до 23:59 дня, накануне следующего занятия.  -->
 
 + [**Рисунки с лекции про внешнее строение насекомых**](Presentations/VM_2nd_year/Insecta/Insecta.zip) [Видео. Рассказывает ВМ.](https://drive.google.com/file/d/1flq8Obi6EhtSGEBNw6gGifR7qm-_ur8w/view?usp=sharing)
 
-+ [**Насекомые. Практическая работа**](Presentations/Virtual_Practice/Insecta практика_VM.pptx)
++ [**Насекомые. Практическая работа**](Presentations/Virtual_Practice/Insecta практика_VM.pptx) [Видео. Ведет ВМ](https://drive.google.com/file/d/1nwzfn5Dk_UGme7A2q357xYNiTl5up5N-/view?usp=sharing)
 
-- [**Видео. Внутреннее строение аннелид. Рассказывает ДА**](https://us02web.zoom.us/rec/share/C4vpCfn3ybhZC3myLGB7Bkkgl2rEFxwyD2wDAFST7DEps1jgdP7XBt3478cm5HNN.lHk6V_6PkT2u-zIS?startTime=1607436405000)
++ [**Видео. Разнообразие насекомых. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_17_11_20.mp4)
 
-- [**Видео. Размножение и развитие аннелид. Рассказывает ДА**](https://us02web.zoom.us/rec/share/mlb7DfF0TonYbj0oBjiEkrqf11FPN6DJlnPthKcmnKetvTQxw9yoDg02WUxxsqdE.J5pQsiUP4oKO5APM?startTime=1608040589000)
++ [**Видео. Внутреннее строение аннелид. Рассказывает ДА**](https://us02web.zoom.us/rec/share/C4vpCfn3ybhZC3myLGB7Bkkgl2rEFxwyD2wDAFST7DEps1jgdP7XBt3478cm5HNN.lHk6V_6PkT2u-zIS?startTime=1607436405000)
+
++ [**Видео. Размножение и развитие аннелид. Рассказывает ДА**](https://us02web.zoom.us/rec/share/mlb7DfF0TonYbj0oBjiEkrqf11FPN6DJlnPthKcmnKetvTQxw9yoDg02WUxxsqdE.J5pQsiUP4oKO5APM?startTime=1608040589000)
 
 
 + [**Размножение и развитие кольчатых червей. Видео. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_15_12_20.mp4)
+
++ [**Презентация**](https://drive.google.com/file/d/1M0_fmAhTAKoiVvr8XZEB9TU3OXwo2jhb/view?usp=sharing) [**Gastropoda, часть 1:. Видео. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_12_01_21.mp4)
+
++ [**Gastropoda, часть 2:. Видео. Рассказывает ДА**](http://hydrola.ru/smth/da/distant/2y_19_01_21.mp4)
+
+
++ [**Chelicerata**](https://drive.google.com/file/d/1wuEtCa640tdRilaf-pLxlrIN6JCK7qzd/view?usp=sharing) [**Chelicerata:. Видео. Рассказывает ВМ**](https://drive.google.com/file/d/1SnBZpe0fhpGtV22jW_FyQEOolUULHlDj/view?usp=sharing)
+
 
 <br>
 <br>
