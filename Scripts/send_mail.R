@@ -12,7 +12,7 @@ for(i in 1:nrow(base)){
                to = adress,
               # to = "polydora@rambler.ru",
               subject = "УИД и Экология во втором полугодии", 
-              body =  "data/letter_UID.txt",
+              body =  "data/letter_UID2.txt",
               
               # attach.files = "Data/Список гипотез о гагаямах.docx",
               smtp = list(host.name = "smtp.rambler.ru",port = 465,
