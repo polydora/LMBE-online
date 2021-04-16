@@ -11,8 +11,8 @@ for(i in 1:nrow(base)){
     send.mail(from = "polydora@rambler.ru",
                to = adress,
               # to = "polydora@rambler.ru",
-              subject = "УИД и Экология во втором полугодии", 
-              body =  "data/letter_UID2.txt",
+              subject = "УИД сроки сдачи работ", 
+              body =  "data/letter_UID3.txt",
               
               # attach.files = "Data/Список гипотез о гагаямах.docx",
               smtp = list(host.name = "smtp.rambler.ru",port = 465,
