@@ -116,7 +116,7 @@ pre { /* Code block - determines code spacing between lines */
 
 + [Работа с научной литературой](https://youtu.be/qWBSOOh2V2Y)
 
-+ [Как устроена научная статья и как ее читать](https://youtu.be/rSN6NeebTUs)
+<!-- + [Как устроена научная статья и как ее читать](https://youtu.be/rSN6NeebTUs) -->
 
 
 **Задание**   
