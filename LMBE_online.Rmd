@@ -65,7 +65,7 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Многообразие протист*** Презентация](Presentations/VM_1st_year/Многообразие протист.pptx)
 
-<!-- - [***Многообразие протист и строение клетки протист (часть 1)*** Видео]() -->
+- [***Многообразие протист и строение клетки протист (часть 1)*** Видео](https://drive.google.com/file/d/1lvaEFiNxT4qDSJnas_F-4HwqAmDGIpkT/view?usp=sharing)
 
 <!-- - [***Строение клеток протист*** Презентация](Presentations/VM_1st_year/Клетки протистов.pptx) -->
 
