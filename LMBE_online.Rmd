@@ -67,7 +67,10 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Многообразие протист и строение клетки протист (часть 1)*** Видео](https://drive.google.com/file/d/1lvaEFiNxT4qDSJnas_F-4HwqAmDGIpkT/view?usp=sharing)
 
-<!-- - [***Строение клеток протист*** Презентация](Presentations/VM_1st_year/Клетки протистов.pptx) -->
+- [***Строение клетки протист (часть 2)*** Видео](https://drive.google.com/file/d/1F5X2wbxs7Xh1d9Dfn7wSx4mTAdA4WmP3/view?usp=sharing)
+
+
+- [***Строение клеток протист*** Презентация](Presentations/VM_1st_year/Клетки протистов.pptx)
 
 
 <br>
@@ -86,6 +89,10 @@ pre { /* Code block - determines code spacing between lines */
 <br>
 
 ### **Онлайн-встречи по курсу "Экология".**  (2021-2022) 
+
+- [**Демэкология** (часть 1) Видео](https://drive.google.com/file/d/1INRvG9uFx87bZHx1Qa9e9W5flVXo67LJ/view?usp=sharing)
+
+- - [**Демэкология** Презентация](https://docs.google.com/presentation/d/1DwJv5PiVIAEYff87iI6G1fY1MK_5AGHh/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
 
 <br>
 <br>
