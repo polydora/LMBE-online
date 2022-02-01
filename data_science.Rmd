@@ -9,6 +9,53 @@ library(knitr)
 opts_chunk$set(echo = FALSE)
 ```
 
+# **Материалы 2021-2022 учебного года** 
+
+**Добро пожаловать в Data Science Club!**
+
+Если вы еще не записались на курс, то самое время это сделать:
+
+[**Гугл-форма для записи на курс DataScience 2022**](https://docs.google.com/forms/d/e/1FAIpQLSeS9yoSjXL3H8Z5EOT_0YuESky5a4ol79r0wqrEPVpql2Otsg/viewform?usp=sf_link)
+
+Для вступления в наш клуб вам надо выполнить несколько заданий.
+
+1. Просмотреть следующие видео фрагменты, приведенные ниже
+2. Установить на свой ноутбук (или стационарный компьютер) R и RStudio в соответствии с теми инструкциям, которые вы найдете в видео.
+3. Решить задачу, которую вы найдете ниже.
+
+**Важно!** Почти все, что нам придется делать, изучая язык обработки данных "R", потребует некоторого владения английским языком. Если у вас он еще не на самом высоком уровне, то не отчаивайтесь. Вот прекрасный переводчик (лучший на настоящее время), который поможет вам понять, что наисано в том или ином тексте, который нужно будет прочитать: 
+[**DeepL**](https://www.deepl.com/ru/translator)
+
+## Видео фрагменты
+[Установка **R** и **RStudio**](https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/ustanovka-i-nastroika-r-i-rstudio-mfcyD?utm_source=link&utm_medium=in_course_lecture&utm_content=page_share&utm_campaign=overlay_button)     
+[Организация рабочего пространства  в среде R](https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/orghanizatsiia-rabochiegho-prostranstva-MX8Ut?utm_source=link&utm_medium=in_course_lecture&utm_content=page_share&utm_campaign=overlay_button)      
+[Как получить помощь?](https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/kak-poluchit-pomoshch-Pi5Ho?utm_source=link&utm_medium=in_course_lecture&utm_content=page_share&utm_campaign=overlay_button)       
+[Установка пакетов](https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/ustanovka-pakietov-dumb5?utm_source=link&utm_medium=in_course_lecture&utm_content=page_share&utm_campaign=overlay_button)       
+
+
+Вот ссылки, для упрощения поиска сайтов 
+
+Собственно **язык R** https://cran.r-project.org/bin/windows/base/
+
+Среда **Rstudio**, которая существенно облегчает и ускоряет работу с R. https://www.rstudio.com/products/rstudio/download/
+
+
+
+## Испытание для вступления в клуб
+
+Найдите как называется первый параметр функции aes() из пакета "ggplot2".
+
+Ответ надо будет вписать вот в эту [гугл-форму](https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link)
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 
 # **Материалы 2020-2021 учебного года** 

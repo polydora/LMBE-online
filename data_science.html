@@ -13,46 +13,40 @@
 
 <title>Курс “Data Science”</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
 
 <link rel="stylesheet" href="my_styles.css" type="text/css" />
 
@@ -63,10 +57,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -83,40 +73,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -144,7 +107,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -156,7 +119,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -167,10 +130,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -182,7 +158,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -314,7 +289,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -355,7 +330,8 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+
+<div id="header">
 
 
 
@@ -364,6 +340,35 @@ div.tocify {
 </div>
 
 
+<div id="материалы-2021-2022-учебного-года" class="section level1">
+<h1><strong>Материалы 2021-2022 учебного года</strong></h1>
+<p><strong>Добро пожаловать в Data Science Club!</strong></p>
+<p>Если вы еще не записались на курс, то самое время это сделать:</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeS9yoSjXL3H8Z5EOT_0YuESky5a4ol79r0wqrEPVpql2Otsg/viewform?usp=sf_link"><strong>Гугл-форма для записи на курс DataScience 2022</strong></a></p>
+<p>Для вступления в наш клуб вам надо выполнить несколько заданий.</p>
+<ol style="list-style-type: decimal">
+<li>Просмотреть следующие видео фрагменты, приведенные ниже</li>
+<li>Установить на свой ноутбук (или стационарный компьютер) R и RStudio в соответствии с теми инструкциям, которые вы найдете в видео.</li>
+<li>Решить задачу, которую вы найдете ниже.</li>
+</ol>
+<p><strong>Важно!</strong> Почти все, что нам придется делать, изучая язык обработки данных “R”, потребует некоторого владения английским языком. Если у вас он еще не на самом высоком уровне, то не отчаивайтесь. Вот прекрасный переводчик (лучший на настоящее время), который поможет вам понять, что наисано в том или ином тексте, который нужно будет прочитать: <a href="https://www.deepl.com/ru/translator"><strong>DeepL</strong></a></p>
+<div id="видео-фрагменты" class="section level2">
+<h2>Видео фрагменты</h2>
+<p><a href="https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/ustanovka-i-nastroika-r-i-rstudio-mfcyD?utm_source=link&amp;utm_medium=in_course_lecture&amp;utm_content=page_share&amp;utm_campaign=overlay_button">Установка <strong>R</strong> и <strong>RStudio</strong></a><br />
+<a href="https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/orghanizatsiia-rabochiegho-prostranstva-MX8Ut?utm_source=link&amp;utm_medium=in_course_lecture&amp;utm_content=page_share&amp;utm_campaign=overlay_button">Организация рабочего пространства в среде R</a><br />
+<a href="https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/kak-poluchit-pomoshch-Pi5Ho?utm_source=link&amp;utm_medium=in_course_lecture&amp;utm_content=page_share&amp;utm_campaign=overlay_button">Как получить помощь?</a><br />
+<a href="https://www.coursera.org/lecture/znakomstvo-r-bazovaya-statistika/ustanovka-pakietov-dumb5?utm_source=link&amp;utm_medium=in_course_lecture&amp;utm_content=page_share&amp;utm_campaign=overlay_button">Установка пакетов</a></p>
+<p>Вот ссылки, для упрощения поиска сайтов</p>
+<p>Собственно <strong>язык R</strong> <a href="https://cran.r-project.org/bin/windows/base/" class="uri">https://cran.r-project.org/bin/windows/base/</a></p>
+<p>Среда <strong>Rstudio</strong>, которая существенно облегчает и ускоряет работу с R. <a href="https://www.rstudio.com/products/rstudio/download/" class="uri">https://www.rstudio.com/products/rstudio/download/</a></p>
+</div>
+<div id="испытание-для-вступления-в-клуб" class="section level2">
+<h2>Испытание для вступления в клуб</h2>
+<p>Найдите как называется первый параметр функции aes() из пакета “ggplot2”.</p>
+<p>Ответ надо будет вписать вот в эту <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link">гугл-форму</a></p>
+<p><br> <br> <br> <br> <br></p>
+</div>
+</div>
 <div id="материалы-2020-2021-учебного-года" class="section level1">
 <h1><strong>Материалы 2020-2021 учебного года</strong></h1>
 <div id="часть-1.-первые-шаги" class="section level2">
@@ -481,7 +486,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -499,7 +504,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -508,6 +513,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
