@@ -80,6 +80,8 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Глоссарий по темам "Основы систематики", "Строение эукариотической клетки", "Protista", "жизненные циклы протистов"** Для подготовки к зачету](Presentations/VM_1st_year/TERMS Zoology first part.pdf)
 
+- [**Зачет** По теме "Основы систематики, Строение эукариотической клетки, Protista, жизненные циклы протистов" ](https://docs.google.com/forms/d/e/1FAIpQLSdU_qRIZI75Vd_GVHW98kVq753uac8pvtpQ50bRCumPiXoG1g/viewform?usp=sf_link)
+
 
 <br>
 <br>
@@ -91,7 +93,7 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Многоножки*** Видео](https://drive.google.com/file/d/1lvaEFiNxT4qDSJnas_F-4HwqAmDGIpkT/view?usp=sharing)
 
--[***Polychaeta*** Презентация](https://docs.google.com/presentation/d/1yvmpA3w-XzzJYZgaoR61pPPnFw7KD3Xk/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+- [***Polychaeta*** Презентация](https://docs.google.com/presentation/d/1yvmpA3w-XzzJYZgaoR61pPPnFw7KD3Xk/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
 
 - [***Полихеты*** Видео. Часть 1](https://drive.google.com/file/d/1ZgT4tW847ZpJMZiYkrmLW0uuuXFNynrR/view?usp=sharing)
 
@@ -104,7 +106,7 @@ pre { /* Code block - determines code spacing between lines */
 - [***Nemertea*** Презентация](https://docs.google.com/presentation/d/11SKNCHVhuDYwxqDS8Ac_03CfYvBTdXs7/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
 
 
-- [**Зачет по теме "Annelida"**](https://docs.google.com/forms/d/1fM4Qd8rsaBH-5whxdE0n0iKL-LlHrw3Lx0DiBxZKknM/edit?usp=sharing)
+- [**Зачет по теме "Annelida"**](https://docs.google.com/forms/d/e/1FAIpQLSfA6mt6OKPOpRogOyox7fnlL9QbRz6f7a3gJFezV_YGqG2z9g/viewform?usp=sf_link)
 
 
 <br>
