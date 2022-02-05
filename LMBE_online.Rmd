@@ -13,7 +13,7 @@ body{ /* Normal  */
       font-size: 18px;
   }
 td {  /* Table  */
-  font-size: 8px;
+  font-size: 18px;
 }
 h1.title {
   font-size: 60px;
@@ -76,6 +76,8 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Губки***. Презентация](https://drive.google.com/file/d/1ks5gwdI0PNx7oEYK7KhAmU96WK9X87jG/view?usp=sharing)
 
+- [**Spongia**. Видео](https://drive.google.com/file/d/1-e88SoiKxXE7guR2rqfCDNICAEFSrVgL/view?usp=sharing)
+
 - [**Глоссарий по темам "Основы систематики", "Строение эукариотической клетки", "Protista", "жизненные циклы протистов"** Для подготовки к зачету](Presentations/VM_1st_year/TERMS Zoology first part.pdf)
 
 
@@ -89,6 +91,21 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Многоножки*** Видео](https://drive.google.com/file/d/1lvaEFiNxT4qDSJnas_F-4HwqAmDGIpkT/view?usp=sharing)
 
+-[***Polychaeta*** Презентация](https://docs.google.com/presentation/d/1yvmpA3w-XzzJYZgaoR61pPPnFw7KD3Xk/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+
+- [***Полихеты*** Видео. Часть 1](https://drive.google.com/file/d/1ZgT4tW847ZpJMZiYkrmLW0uuuXFNynrR/view?usp=sharing)
+
+- [***Полихеты*** Видео. Часть 2](https://drive.google.com/file/d/16QQWcplH-UHJ3c3MKDA-W0mlRpP9Utib/view?usp=sharing)
+
+- [***Oligochaeta*** Презентация](https://docs.google.com/presentation/d/1-GNFsw29p7MtBC_sN0EVybx6VG9k4mNY/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+
+- [***Hirudinea*** Презентация](https://docs.google.com/presentation/d/11SKNCHVhuDYwxqDS8Ac_03CfYvBTdXs7/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+
+- [***Nemertea*** Презентация](https://docs.google.com/presentation/d/11SKNCHVhuDYwxqDS8Ac_03CfYvBTdXs7/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+
+
+- [**Зачет по теме "Annelida"**](https://docs.google.com/forms/d/1fM4Qd8rsaBH-5whxdE0n0iKL-LlHrw3Lx0DiBxZKknM/edit?usp=sharing)
+
 
 <br>
 <br>
@@ -96,17 +113,78 @@ pre { /* Code block - determines code spacing between lines */
 
 ### **Онлайн-встречи по курсу "Экология".**  (2021-2022) 
 
+
+- [**Аутэкология**](Presentations//Lecture 2 Аутэкология .pdf)
+
+
+
+- [**Демэкология**](Presentations//Lecture 3 Демэкология.pdf)
+
+
 - [**Демэкология** (часть 1) Видео](https://drive.google.com/file/d/1INRvG9uFx87bZHx1Qa9e9W5flVXo67LJ/view?usp=sharing)
 
-- - [**Демэкология** Презентация](https://docs.google.com/presentation/d/1DwJv5PiVIAEYff87iI6G1fY1MK_5AGHh/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
 
+- [**Динамика популяции**](Presentations//Lecture 4 Динамика популяции.pdf)
+
+- [**Динамика популяции** (Часть 1). Видео](https://drive.google.com/file/d/1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb/view?usp=sharing)
+
+- [**Динамика популяций** (Часть 2). Видео](https://drive.google.com/file/d/1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb/view?usp=sharing)
+
+- [**Взаимоотношения организмов**](Presentations//Lecture 6 Взаимоотношения часть 2.pdf)
+
+- [**Классификация отношений между организмами**. Видео](https://drive.google.com/file/d/1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb/view?usp=sharing)
+
+- [**Конкурентные отношения**](Presentations//Lecture 7 Конкуренция.pdf)
+
+- [**Конкурентные отношения**. Видео](https://drive.google.com/file/d/1kOQ3B--B2OSaWlPg2qnvgcUE7nyoUL_y/view?usp=sharing)
+
+- [**Трофические связи**](Presentations//Lecture 8 Трофические отношения.pdf)
+
+- [**Теория оптмального фуражирования**. Видео](https://drive.google.com/file/d/1wR2IpVtpHw5TFtd6YEgrlN_Up-4cgV03/view?usp=sharing)
+
+- [**Симбиозы**](Presentations//Lecture 9 Симбиозы.pdf)
 
 - [**Окончание рассказа о паразитах. Часть 1** Видео](https://drive.google.com/file/d/1emrVb1uV5ayqUvU1PXHTsxCqQvNn_Ywr/view?usp=sharing)
 
 
 - [**Окончание рассказа о паразитах. Часть 2** Видео](https://drive.google.com/file/d/1PE7Vskl3U_Iy-hpviRrp754uHETW4x9O/view?usp=sharing)
 
+
+
+- [**Структура сообщества**](Presentations//Lecture 10 Структура сообщества.pdf)
+
 - [**Синэкология** Видовое богатство сообществ. Видео](https://drive.google.com/file/d/1r1QTR8vt3UF8A5zYnfQbn9SLBaa9kye3/view?usp=sharing)
+
+
+- [**Синэкология**. Видовое разнообразие. Особенные виды в сообществах. Видео](https://drive.google.com/file/d/1KSNpYJm0SjsVoxwWidrIjMWG9QB7L897/view?usp=sharing)
+
+
+- **Готовимся к зачету** Глоссарий: термины, так или иначе появлявшиеся в курсе Экология, которые должны быть в вашей голове.
+
+Если вы можете описать, что кроется за всеми этими понятиями, то вы почти готовы к зачету!
+
+Если термин вам не знаком, то ищите информацию про него, лишним не будет. Для этого в таблице даны ссылки на Википедию... НО! Помните, что Википедию пишут люди, которые могут писать и полную ерунду...
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(readxl)
+terms <- read_excel("data/glossary_wiki_short.xlsx", na =  "NA")
+
+terms$Wiki_ru <- ifelse(is.na(terms$Wiki_ru), "", paste("[Wiki Ru]","(",terms$Wiki_ru,")", sep = ""))
+
+terms$Wiki_en <- ifelse(is.na(terms$Wiki_en), "", paste("[Wiki En]","(",terms$Wiki_en,")", sep = ""))
+
+# 
+# 
+# terms <- as.matrix(terms)
+# dim(terms) <- c(95, 3)
+# terms <- as.data.frame(terms)
+# 
+kable(terms, col.names = c("Термины", "Википедия", "Wikipedia"))
+```
+
+
 
 <br>
 <br>
