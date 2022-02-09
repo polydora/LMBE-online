@@ -72,11 +72,16 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Строение клеток протист*** Презентация](Presentations/VM_1st_year/Клетки протистов.pptx)
 
-- [***Происхождение многоклеточных животных*** Презентация](https://drive.google.com/file/d/148e7NWQvFr1hH-as-KkPzCZz1EDdThFT/view?usp=sharing)
+- [***Происхождение многоклеточных животных*** Презентация. Вариант от ВМ](https://drive.google.com/file/d/148e7NWQvFr1hH-as-KkPzCZz1EDdThFT/view?usp=sharing)
+
+[***Происхождение многоклеточных животных*** Презентация. Вариант от ДА](https://drive.google.com/file/d/1NVTPDUf_8RMuj4UKaFA9uaB63Tz-_4iL/view?usp=sharing)
+
 
 - [***Губки***. Презентация](https://drive.google.com/file/d/1ks5gwdI0PNx7oEYK7KhAmU96WK9X87jG/view?usp=sharing)
 
-- [**Spongia**. Видео](https://drive.google.com/file/d/1-e88SoiKxXE7guR2rqfCDNICAEFSrVgL/view?usp=sharing)
+- [**Spongia** (Часть 1). Видео](https://drive.google.com/file/d/1popHDAijH6H9HLWFWvv28PoHm_RN4ax8/view?usp=sharing)
+
+- [**Spongia** (Часть 2). **Placozoa** Видео](https://drive.google.com/file/d/1LEwy27tjk2_NeBWr7MYFv4HkyaDV6K-q/view?usp=sharing)
 
 - [**Глоссарий по темам "Основы систематики", "Строение эукариотической клетки", "Protista", "жизненные циклы протистов"** Для подготовки к зачету](Presentations/VM_1st_year/TERMS Zoology first part.pdf)
 
@@ -93,6 +98,10 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Многоножки*** Видео](https://drive.google.com/file/d/1lvaEFiNxT4qDSJnas_F-4HwqAmDGIpkT/view?usp=sharing)
 
+
+- [***Lophotrochozoa***. Презентация. Вариант от ДА](https://drive.google.com/file/d/1BfQJz50wKrF-wbGIeriuukTU_X7QJ5iq/view?usp=sharing)
+
+
 - [***Polychaeta*** Презентация](https://docs.google.com/presentation/d/1yvmpA3w-XzzJYZgaoR61pPPnFw7KD3Xk/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
 
 - [***Полихеты*** Видео. Часть 1](https://drive.google.com/file/d/1ZgT4tW847ZpJMZiYkrmLW0uuuXFNynrR/view?usp=sharing)
@@ -103,7 +112,9 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Hirudinea*** Презентация](https://docs.google.com/presentation/d/11SKNCHVhuDYwxqDS8Ac_03CfYvBTdXs7/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
 
-- [***Nemertea*** Презентация](https://docs.google.com/presentation/d/11SKNCHVhuDYwxqDS8Ac_03CfYvBTdXs7/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+- [***Nemertea*** Презентация. Вариант  ВМ](https://docs.google.com/presentation/d/11SKNCHVhuDYwxqDS8Ac_03CfYvBTdXs7/edit?usp=sharing&ouid=104073765878946580320&rtpof=true&sd=true)
+
+- [***Nemertea*** Презентация. Вариант  ДА](https://drive.google.com/file/d/1BfQJz50wKrF-wbGIeriuukTU_X7QJ5iq/view?usp=sharing)
 
 
 - [**Зачет по теме "Annelida"**](https://docs.google.com/forms/d/e/1FAIpQLSfA6mt6OKPOpRogOyox7fnlL9QbRz6f7a3gJFezV_YGqG2z9g/viewform?usp=sf_link)
@@ -185,6 +196,15 @@ terms$Wiki_en <- ifelse(is.na(terms$Wiki_en), "", paste("[Wiki En]","(",terms$Wi
 # 
 kable(terms, col.names = c("Термины", "Википедия", "Wikipedia"))
 ```
+
+
+# Научные семинары Лаборатории, проходившие в дистантном режиме в 2022
+
+- [Семинар 29.01.2022](https://drive.google.com/file/d/1popHDAijH6H9HLWFWvv28PoHm_RN4ax8/view?usp=sharing)
+
+
+
+
 
 
 

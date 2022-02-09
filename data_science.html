@@ -44,6 +44,96 @@
     </style>
 
 
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; } /* Alert */
+code span.an { color: #008000; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #0000ff; } /* ControlFlow */
+code span.ch { color: #008080; } /* Char */
+code span.cn { } /* Constant */
+code span.co { color: #008000; } /* Comment */
+code span.cv { color: #008000; } /* CommentVar */
+code span.do { color: #008000; } /* Documentation */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.im { } /* Import */
+code span.in { color: #008000; } /* Information */
+code span.kw { color: #0000ff; } /* Keyword */
+code span.op { } /* Operator */
+code span.ot { color: #ff4000; } /* Other */
+code span.pp { color: #ff4000; } /* Preprocessor */
+code span.sc { color: #008080; } /* SpecialChar */
+code span.ss { color: #008080; } /* SpecialString */
+code span.st { color: #008080; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #008080; } /* VerbatimString */
+code span.wa { color: #008000; font-weight: bold; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
 
 
 
@@ -366,6 +456,25 @@ div.tocify {
 <h2>Испытание для вступления в клуб</h2>
 <p>Найдите как называется первый параметр функции aes() из пакета “ggplot2”.</p>
 <p>Ответ надо будет вписать вот в эту <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link">гугл-форму</a></p>
+<p><br></p>
+</div>
+</div>
+<div id="первые-шаги" class="section level1">
+<h1>Первые шаги</h1>
+<p><strong>Уважаемые члены нашего клуба!</strong></p>
+<p><a href="https://drive.google.com/file/d/18IcSk9jCWMhr6fkGFjpsEucxYR9bGsel/view?usp=sharing">Вот видео запись нашего занятия</a></p>
+<p><strong>Задание № 2</strong></p>
+<p>Ваша задача - разобраться с тем, как создаются пользовательские функции на языке R. Разобравшись с этим, вам надо будет написать функцию, которая решала бы простейшие уравнения вот такого вида:</p>
+<p><span class="math display">\[
+a + b \cdot x = c \\
+x = \frac{c-a}{b}
+\]</span></p>
+<p>Эта функция должна работать следующим образом.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Решение простейшего уравнения с помощью пользовательской функции</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">eq</span>(<span class="at">a =</span> <span class="dv">1</span>, <span class="at">b =</span> <span class="dv">2</span>, <span class="at">c =</span> <span class="dv">3</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;Решение: x = 1&quot;</code></pre>
+<p>В качестве решения вам нужно будет заполнить вот эту <a href="https://docs.google.com/forms/d/e/1FAIpQLSefNpWj1p_atOIvEVsgEZ_98aSGxejPDYNzicDnN1j1mquELw/viewform?usp=sf_link">гугл-форму</a>.</p>
+<p><strong>Внимание!</strong> Если вы еще не разобрались, как сделать так, чтобы ваша функция выдавала текстовое сообщение <em>“Решение: x =”</em>, то можно пока обойтись просто выводом значения <span class="math inline">\(x\)</span>.</p>
 <p><br> <br> <br> <br> <br></p>
 <!-- # **Материалы 2020-2021 учебного года**  -->
 <!-- ## **Часть 1.** Первые шаги  -->
@@ -452,7 +561,6 @@ div.tocify {
 <!-- Как известно, созданием разумных существ в Средиземье занимались все, кому не лень. Да и сама по себе эволюция там за четыре эпохи как-никак шла... Короче, решил Эру Илуватар наконец разобраться сколько всего рас обитает в некогда созданной им Арде. И заслал он своего верного майар Пенальда Серобуромалинового в Средиземье и велел ему разобраться в вопросе и предоставить технический отчет. Долго бродил Пенальд по просторам континента и у всех существ, с которыми он имел дело, он измерял их рост и длину ушей. Все это он добросовестно свел в [csv-файл](Data_science/My_firs_steps/data/arda.csv). Помогите Пенальду ответить на следующие вопросы: -->
 <!-- 1.Сколько всего рас обтитает в Средиземье. -->
 <!-- 2.Какие именно значения параметров имели ввиду создатели тех или иных рас, когда творили свих питомцев.     -->
-</div>
 </div>
 
 
