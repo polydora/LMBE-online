@@ -92,8 +92,6 @@ eq(a = 1, b = 2, c = 3)
 
 
 
-
-
 <br>
 <br>
 <br>
@@ -140,6 +138,8 @@ ggplot(brain, aes(x = MRINACount, y =PIQ, fill = Gender, shape = Gender, size = 
 
 Если у вас какие-то вещи не получились, то присылайте код, который создаст картинку, максимально похожую на ту, что приведена выше.
 
+Ответы кидаем вот в эту [**гугл-форму**](https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link)
+
 
 
 
@@ -154,6 +154,10 @@ ggplot(brain, aes(x = MRINACount, y =PIQ, fill = Gender, shape = Gender, size = 
 <!-- 2. Среду **Rstudio**, которая существенно облегчает и ускоряет работу с R. https://www.rstudio.com/products/rstudio/download/ -->
 
 <!-- После того, как это сделали, откройте RStudio и попытайтесь разобраться тем, как это работает самостоятельно. Для этого используте вот эту [презентацию](https://varmara.github.io/linmodr/01_intro_to_r.html) -->
+
+
+
+
 
 
 <!-- **Задание №1** -->
