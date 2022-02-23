@@ -6,8 +6,12 @@ description: Материалы курса
 
 ```{r setup, include=FALSE}
 library(knitr)
-opts_chunk$set(echo = FALSE)
+opts_chunk$set(echo = FALSE, warning = FALSE)
 ```
+
+
+
+
 
 # **Материалы 2021-2022 учебного года** 
 
@@ -95,6 +99,48 @@ eq(a = 1, b = 2, c = 3)
 <br>
 <br>
 <br>
+
+
+## Знакомимся с пакетом "ggplot2"
+
+Для того, чтобы отработать навыки работы с графическим пакетом `ggplot2` предлагается посмотреть вот это [**видео**](https://youtu.be/wVA7N9nNZqE), которое создали Алена Евдокимова и Рената Нематова, когда они еще сами изучали R. 
+
+**NB!** *Что-то подобное надо будет сделать и вам, но на другие темы.*
+
+Ну а в качестве задания вам надо будет визуализировать данные из вот [этого датасета](data/IQ_brain.csv). Это данные, которые демонстрируют результаты анализа связи размера головного мозга человека (Переменная `MRINACount`, количество пикселей на срезе, полученном на МРТ) и уровня его интеллекта по результатам теста на IQ (Переменная `PIQ`). Кроме того в базе данных есть еще результаты измерения веса и роста испытуемых.
+
+Вам нужно будет написать код, который в точности воспроизведет вот такую картинку.
+
+<br>
+<br>
+
+```{r}
+library(ggplot2)
+
+brain <- read.table("data/IQ_brain.csv", header = T, sep = ",")
+
+options(scipen=10000)
+
+ggplot(brain, aes(x = MRINACount, y =PIQ, fill = Gender, shape = Gender, size = Weight)) + 
+  geom_point() +
+  scale_shape_manual(values = c(21, 22)) + 
+  scale_fill_manual(values = c("pink", "blue")) +
+  theme_bw() +
+  theme(panel.grid = element_blank()) +
+  theme(legend.position = c(0.93, 0.12), legend.background = element_rect(fill="green", color = "black"), legend.key = element_blank()) + 
+  guides(size = "none") + 
+  guides(shape = guide_legend(override.aes = list(size = 4))) +
+  labs(fill = "Пол", shape = "Пол",  x = "Размер головного мозга \n(Количество пикселей)", y = "Уровень интеллекта \n(IQ - тест)") + 
+  ggtitle("Связь уровня интеллекта и размера головного мозга", subtitle = "размер точек пропорционален весу") 
+
+
+```
+
+<br>
+
+Если у вас какие-то вещи не получились, то присылайте код, который создаст картинку, максимально похожую на ту, что приведена выше.
+
+
 
 
 
