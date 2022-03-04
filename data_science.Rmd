@@ -6,7 +6,7 @@ description: Материалы курса
 
 ```{r setup, include=FALSE}
 library(knitr)
-opts_chunk$set(echo = FALSE, warning = FALSE)
+opts_chunk$set(echo = FALSE, warning = FALSE, message=FALSE)
 ```
 
 
@@ -105,6 +105,11 @@ eq(a = 1, b = 2, c = 3)
 
 **NB!** *Что-то подобное надо будет сделать и вам, но на другие темы.*
 
+
+
+## Задание 2
+
+
 Ну а в качестве задания вам надо будет визуализировать данные из вот [этого датасета](data/IQ_brain.csv). Это данные, которые демонстрируют результаты анализа связи размера головного мозга человека (Переменная `MRINACount`, количество пикселей на срезе, полученном на МРТ) и уровня его интеллекта по результатам теста на IQ (Переменная `PIQ`). Кроме того в базе данных есть еще результаты измерения веса и роста испытуемых.
 
 Вам нужно будет написать код, который в точности воспроизведет вот такую картинку.
@@ -140,6 +145,48 @@ ggplot(brain, aes(x = MRINACount, y =PIQ, fill = Gender, shape = Gender, size = 
 
 Ответы кидаем вот в эту [**гугл-форму**](https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link)
 
+
+
+## Задание 3
+
+Установите себе пакет `vegan`. Далее мы будем использовать два датасета из этого пакета: `varespec` и  `varechem`.
+
+```{r echo=TRUE}
+library(vegan)
+data(varespec)
+head(varespec)[,1:4]
+```
+
+Это данные по обилию растений в сообществах, где пасуться олени в Феноскандии. 
+
+```{r echo=TRUE}
+data(varechem)
+head(varechem)[,1:4]
+```
+
+А это данные по химическим свойствам почвы.
+
+Используя **только** функции пакета `dplyr`, преобразуйте эти два датасета в один так, чтобы он выглядел вот таким образом (надо построить только одну цепочку-конвейер, **pipe**). Новый датасет должен отражать среднее обилие переменной `Empenigr` (это вороника *Empetrum nigrum*) на двух типах почв: где калия больше, чем в среднем по всем пробам, и где его меньше, чем в среднем.
+
+
+```{r warning=FALSE, message=FALSE}
+library(dplyr)
+
+varespec %>% 
+  select(Empenigr) %>% 
+  mutate(K = varechem$K) %>% 
+  mutate(K_class = case_when(
+    K > mean(K) ~ "Калия больше среднего",
+    K < mean(K) ~ "Калия меньше среднего")) %>% 
+  group_by(K_class) %>% 
+  summarise(Mean_Empenigr = mean(Empenigr))
+
+```
+
+**Подсказка** Вам понадобится функция `case_when()`.
+
+
+Ответы кидаем вот в эту [**гугл-форму**](https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link)
 
 
 

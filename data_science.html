@@ -480,12 +480,48 @@ x = \frac{c-a}{b}
 <h2>Знакомимся с пакетом “ggplot2”</h2>
 <p>Для того, чтобы отработать навыки работы с графическим пакетом <code>ggplot2</code> предлагается посмотреть вот это <a href="https://youtu.be/wVA7N9nNZqE"><strong>видео</strong></a>, которое создали Алена Евдокимова и Рената Нематова, когда они еще сами изучали R.</p>
 <p><strong>NB!</strong> <em>Что-то подобное надо будет сделать и вам, но на другие темы.</em></p>
+</div>
+<div id="задание-2" class="section level2">
+<h2>Задание 2</h2>
 <p>Ну а в качестве задания вам надо будет визуализировать данные из вот <a href="data/IQ_brain.csv">этого датасета</a>. Это данные, которые демонстрируют результаты анализа связи размера головного мозга человека (Переменная <code>MRINACount</code>, количество пикселей на срезе, полученном на МРТ) и уровня его интеллекта по результатам теста на IQ (Переменная <code>PIQ</code>). Кроме того в базе данных есть еще результаты измерения веса и роста испытуемых.</p>
 <p>Вам нужно будет написать код, который в точности воспроизведет вот такую картинку.</p>
 <p><br> <br></p>
 <p><img src="data_science_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p><br></p>
 <p>Если у вас какие-то вещи не получились, то присылайте код, который создаст картинку, максимально похожую на ту, что приведена выше.</p>
+<p>Ответы кидаем вот в эту <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link"><strong>гугл-форму</strong></a></p>
+</div>
+<div id="задание-3" class="section level2">
+<h2>Задание 3</h2>
+<p>Установите себе пакет <code>vegan</code>. Далее мы будем использовать два датасета из этого пакета: <code>varespec</code> и <code>varechem</code>.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(varespec)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(varespec)[,<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>]</span></code></pre></div>
+<pre><code>##    Callvulg Empenigr Rhodtome Vaccmyrt
+## 18     0.55    11.13     0.00     0.00
+## 15     0.67     0.17     0.00     0.35
+## 24     0.10     1.55     0.00     0.00
+## 27     0.00    15.13     2.42     5.92
+## 23     0.00    12.68     0.00     0.00
+## 19     0.00     8.92     0.00     2.42</code></pre>
+<p>Это данные по обилию растений в сообществах, где пасуться олени в Феноскандии.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(varechem)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(varechem)[,<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>]</span></code></pre></div>
+<pre><code>##       N    P     K    Ca
+## 18 19.8 42.1 139.9 519.4
+## 15 13.4 39.1 167.3 356.7
+## 24 20.2 67.7 207.1 973.3
+## 27 20.6 60.8 233.7 834.0
+## 23 23.8 54.5 180.6 777.0
+## 19 22.8 40.9 171.4 691.8</code></pre>
+<p>А это данные по химическим свойствам почвы.</p>
+<p>Используя <strong>только</strong> функции пакета <code>dplyr</code>, преобразуйте эти два датасета в один так, чтобы он выглядел вот таким образом (надо построить только одну цепочку-конвейер, <strong>pipe</strong>). Новый датасет должен отражать среднее обилие переменной <code>Empenigr</code> (это вороника <em>Empetrum nigrum</em>) на двух типах почв: где калия больше, чем в среднем по всем пробам, и где его меньше, чем в среднем.</p>
+<pre><code>## # A tibble: 2 x 2
+##   K_class               Mean_Empenigr
+##   &lt;chr&gt;                         &lt;dbl&gt;
+## 1 Калия больше среднего          5.78
+## 2 Калия меньше среднего          6.99</code></pre>
+<p><strong>Подсказка</strong> Вам понадобится функция <code>case_when()</code>.</p>
 <p>Ответы кидаем вот в эту <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYkVDl34C5pSJGHY4fBLH0PLosb7gu2CAr7TdF_X3IeXH7GQ/viewform?usp=sf_link"><strong>гугл-форму</strong></a></p>
 <!-- # **Материалы 2020-2021 учебного года**  -->
 <!-- ## **Часть 1.** Первые шаги  -->
