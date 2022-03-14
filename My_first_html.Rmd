@@ -1,0 +1,57 @@
+---
+title: "Кто умнее?"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(knitr)
+```
+
+## Введение
+
+Мы попробуем изучить как связаны размеры головного мозга и уровень интеллекта человека.
+
+
+## Методика
+
+В основе материала лежит датасет, представленный вот в этой таблице.
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+theme_set(theme_bw())
+
+brain <- read.table("data/IQ_brain.csv", header = T, sep = ",")
+
+brain %>% select(-FSIQ, -VIQ) %>% kable()
+
+```
+
+## Результаты
+
+
+```{r}
+options(scipen=10000)
+
+ggplot(brain, aes(x = MRINACount, y =PIQ, fill = Gender, shape = Gender, size = Weight)) + 
+  geom_point() +
+  scale_shape_manual(values = c(21, 22)) + 
+  scale_fill_manual(values = c("pink", "blue")) +
+  theme_bw() +
+  theme(panel.grid = element_blank()) +
+  theme(legend.position = c(0.93, 0.12), legend.background = element_rect(fill="green", color = "black"), legend.key = element_blank()) + 
+  guides(size = "none") + 
+  guides(shape = guide_legend(override.aes = list(size = 4))) +
+  labs(fill = "Пол", shape = "Пол",  x = "Размер головного мозга \n(Количество пикселей)", y = "Уровень интеллекта \n(IQ - тест)") + 
+  ggtitle("Связь уровня интеллекта и размера головного мозга", subtitle = "размер точек пропорционален весу") 
+```
+
+
+Мы не наблюдаем связи между уровнем интеллекта и полом. Однако отчетливо прослеживается связь между полом и размером мозга. Эту закономерность иллюстрирует следующий график.
+
+```{r}
+ggplot(brain, aes(x = Gender, y = MRINACount, fill = Gender)) + geom_boxplot() + guides(fill = "none")
+```
+
