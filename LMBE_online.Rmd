@@ -61,6 +61,7 @@ pre { /* Code block - determines code spacing between lines */
 
 - [***Текст для расстановки ссылок***](data/Текст без ссылок.docx)
 
+- [***Текст с расставленными ссылками***](data/Текст ссылки под плагин Mendeley.doc)
 
 - [***Учебная библографическая база***](data/My Bibliography.bib)
 
