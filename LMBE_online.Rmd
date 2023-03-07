@@ -57,7 +57,7 @@ pre { /* Code block - determines code spacing between lines */
 
 ### Материалы в помощь участникам устного тура Городской олимпиады по биологии
 
-- [**Материалы для подготовки к посещению станции "Экология"](Instruction-for-Ecology.html)
+- [**Материалы для подготовки к посещению станции "Экология"**](Instruction-for-Ecology.html)
 
 <br>
 <br>
