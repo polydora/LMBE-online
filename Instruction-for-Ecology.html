@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Станция «Экология»</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<link rel="stylesheet" href="my_styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/LMBE-courses/"> </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">О курсах</a></li>
+        <li><a href="advanced_r.html">Advanced R</a></li>
+	<li><a href="data_science.html">Data Science</a></li>
+	<li><a href="LMBE_online.html">Наш онлайн</a></li>
+	<li><a href="summer.html">Заповедное лето</a></li>
+	<li><a href="analysis.html">Разбор полетов</a></li>
+        <li class="dropdown">
+          <a href="appendix" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Полезности<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+             <li><a href="supplement.html">Дополнительные материалы</a></li>
+             <li><a href="resources.html">Ссылки и ресурсы</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Станция «Экология»</h1>
+
+</div>
+
+
+<div id="с-кем-вы-там-встретитесь" class="section level3">
+<h3>С кем вы там встретитесь?</h3>
+<p>Если вы посетите эту станцию, то вам представится возможность
+вступить в поединок с преподавателями и научными сотрудниками,
+работающими в СПбГУ и СПбГДТЮ. Люди, с которыми вы пообщаетесь – это
+практикующие паразитологи, геоботаники, гидробиологи и специалисты по
+экологии наземных животных.</p>
+</div>
+<div id="о-чем-и-как-вас-будут-спрашивать" class="section level3">
+<h3>О чем и как вас будут спрашивать?</h3>
+<p>Готовьтесь к тому, что на этой станции самое главное – это не
+вызубренные знания из учебника, а умение ими пользоваться. Вам предложат
+порассуждать на какие-нибудь темы (могут предложить даже вытянуть
+билет), но содержание разговора будет зависеть исключительно от вашей
+активности. Чем активнее вы выдвигаете те или иные решения, чем шире
+привлекаете оригинальные примеры, тем больше вероятность, что беседа
+будет интересной.</p>
+</div>
+<div id="кому-не-стоит-приходить-на-станцию-экология"
+class="section level3">
+<h3>Кому не стоит приходить на станцию «Экология»?</h3>
+<p>Тем, кто всерьез использует газетные штампы вроде «экология
+культуры», «здесь плохая экология», «экологи занимаются охраной
+окружающей среды» и т.п.</p>
+</div>
+<div id="о-чем-спрашивают-на-станции" class="section level3">
+<h3>О чем спрашивают на станции?</h3>
+<p>О научных аспектах взаимоотношений организмов друг с другом и со
+средой их обитания, о закономерностях структуры и динамики
+надорганизменных систем (популяций, сообществ, биосферы). Вот примерный
+список ключевых слов, которые могут помочь вам сориентироваться в
+предмете, о котором пойдет речь на станции.</p>
+</div>
+<div id="экологический-глоссарий" class="section level3">
+<h3>Экологический глоссарий</h3>
+<p>Аутоэкология, Абиотический фактор, Автотрофы, Агрегация, Агроценоз,
+Адаптация, Аменсализм, Антропогенный фактор, Биогеоценоз, Биомасса,
+Биосфера, Биотический фактор, Биотоп, Видовое богатство, Видовое
+разнообразие, Возрастная структура популяции, Вторичная продукция,
+Вторичная сукцессия, Гетеротрофы, Демэкология, Детрит, дыхание
+сообщества, Емкость среды, Закон Либиха, Закон Шелфорда, Зона летали,
+Зона оптимума, Зона пессимума, Иммиграция, Климаксное сообщество
+(климакс), Комменсализм, Конкуренция, Консументы, Лимитирующий фактор,
+местообитание, Мутуализм, Нейтрализм, Паразитизм, Первичная продукция,
+Первичная сукцессия, Плотность популяции, Половая структура популяции,
+Популяционные волны (волны жизни), Популяционный коллапс, Популяция,
+Принцип Гаузе, Продуценты, Протокооперация, Редуценты, Симбиоз,
+Симбионт, Синойкия, Синэкология, Сообщество, Стенобионты, Сукцессия,
+Трофическая цепь, Трофический уровень, Удельная рождаемость, Удельная
+смертность, Численность популяции, Чистая первичная продукция,
+Эврибионты, Экологическая ниша, Экологическая пирамида, Экологический
+фактор, Экология, Экосистема, Эмиграция.</p>
+<p>Если хотя бы половина из этих слов вам знакома, то смело приходите на
+станцию «Экология» - получите настоящее удовольствие.</p>
+</div>
+<div id="тест-для-проверки-своих-знаний-в-области-экологии"
+class="section level3">
+<h3>Тест для проверки своих знаний в области экологии</h3>
+<p><a
+href="https://docs.google.com/forms/d/e/1FAIpQLSed0_PqMiWj1xr9nyP79QQdclkvZp-Tk5zhOlS_423UWJKIhg/viewform?usp=sf_link"><strong>Пройди
+меня…</strong></a></p>
+</div>
+<div id="что-почитать" class="section level3">
+<h3>Что почитать?</h3>
+<p>Электронный учебник «Биология», раздел «Экология». <a
+href="http://ebio.ru/index-5.html"
+class="uri">http://ebio.ru/index-5.html</a></p>
+<p>Не поленитесь почитать школьный учебник.<br />
+Общая биология. 10-11 класс. Каменский А.А., Криксунов Е.А., Пасечник
+В.В. М.: Дрофа, 2005. - 367 с. Не так уж он и плох.</p>
+<p>Дажо, Р. Основы экологии / Р. Дажо; пер с франц. В. И. Назарова; под
+ред. В. В. Алпатова. - М.: Прогресс, 1975. - 415 с.</p>
+<p>Экология. Особи популяции и сообщества. В 2-х томах. М. Бигон, Дж.
+Харпер, К. Таунсенд. М.: Мир, 1989. Т.1- 667с.; Т.2 - 477с.</p>
+<p>Нинбург Е.А. Введение в общую экологию. Изд. КМК. М. 2005. 138 с.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
