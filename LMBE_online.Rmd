@@ -61,6 +61,8 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Избранные презентации по курсу "Экология" (Вдруг пригодится)**](Materials-for-Ecology-Lessons.html)
 
+- [**Список терминов, имеющих отношение к анатомии беспозвоночных**](data/Опорный глоссарий по строению беспозвоночных.pdf)
+
 
 <br>
 <br>
