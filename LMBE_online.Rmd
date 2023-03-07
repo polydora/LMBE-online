@@ -55,9 +55,12 @@ pre { /* Code block - determines code spacing between lines */
 <br>
 <br>
 
-### Материалы в помощь участникам устного тура Городской олимпиады по биологии
+### **Материалы в помощь участникам устного тура Городской олимпиады по биологии**
 
 - [**Материалы для подготовки к посещению станции "Экология"**](Instruction-for-Ecology.html)
+
+- [**Избранные презентации по курсу "Экология" (Вдруг пригодится)**](Materials-for-Ecology-Lessons.html)
+
 
 <br>
 <br>
@@ -182,7 +185,7 @@ pre { /* Code block - determines code spacing between lines */
 
 
 
-- [**Демэкология**](Presentations//Lecture 3 Демэкология.pdf)
+- [**Демэкология**](Presentations//Lecture 3 Популяция и ее структура.pdf)
 
 
 - [**Демэкология** (часть 1) Видео](https://drive.google.com/file/d/1INRvG9uFx87bZHx1Qa9e9W5flVXo67LJ/view?usp=sharing)
@@ -194,7 +197,7 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Динамика популяций** (Часть 2). Видео](https://drive.google.com/file/d/1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb/view?usp=sharing)
 
-- [**Взаимоотношения организмов**](Presentations//Lecture 6 Взаимоотношения часть 2.pdf)
+- [**Взаимоотношения организмов**](Presentations//Lecture 6 Классификация отношений.pdf)
 
 - [**Классификация отношений между организмами**. Видео](https://drive.google.com/file/d/1Fb0B36ylsg2ga01qheS506Z8-_KF9ggb/view?usp=sharing)
 
@@ -202,7 +205,7 @@ pre { /* Code block - determines code spacing between lines */
 
 - [**Конкурентные отношения**. Видео](https://drive.google.com/file/d/1kOQ3B--B2OSaWlPg2qnvgcUE7nyoUL_y/view?usp=sharing)
 
-- [**Трофические связи**](Presentations//Lecture 8 Трофические отношения.pdf)
+- [**Трофические связи**](Presentations//Lecture 8 Трофические связи.pdf)
 
 - [**Теория оптмального фуражирования**. Видео](https://drive.google.com/file/d/1wR2IpVtpHw5TFtd6YEgrlN_Up-4cgV03/view?usp=sharing)
 

@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="В. М. Хайтов" />
+
+
+<title>Презентации по курсу Экология</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<link rel="stylesheet" href="my_styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/LMBE-courses/"> </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">О курсах</a></li>
+        <li><a href="advanced_r.html">Advanced R</a></li>
+	<li><a href="data_science.html">Data Science</a></li>
+	<li><a href="LMBE_online.html">Наш онлайн</a></li>
+	<li><a href="summer.html">Заповедное лето</a></li>
+	<li><a href="analysis.html">Разбор полетов</a></li>
+        <li class="dropdown">
+          <a href="appendix" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Полезности<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+             <li><a href="supplement.html">Дополнительные материалы</a></li>
+             <li><a href="resources.html">Ссылки и ресурсы</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Презентации по курсу Экология</h1>
+<h4 class="author">В. М. Хайтов</h4>
+
+</div>
+
+
+<div id="презентации" class="section level2">
+<h2>Презентации</h2>
+<ul>
+<li><p><a
+href="Presentations/Ecology/Lecture%202%20Аутэкология%20.pdf"><strong>Аутэкология</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%203%20Популяция%20и%20ее%20структура.pdf"><strong>Демэкология</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%204%20Динамика%20популяции.pdf"><strong>Динамика
+популяции</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%206%20Классификация%20отношений.pdf"><strong>Взаимоотношения
+организмов</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%207%20Конкуренция.pdf"><strong>Конкурентные
+отношения</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%208%20Трофические%20связи.pdf"><strong>Трофические
+связи</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%209%20Симбиозы.pdf"><strong>Симбиозы</strong></a></p></li>
+<li><p><a
+href="Presentations/Ecology/Lecture%2010%20Структура%20сообщества.pdf"><strong>Структура
+сообщества</strong></a></p></li>
+</ul>
+</div>
+<div id="глоссарий" class="section level2">
+<h2>Глоссарий</h2>
+<p>термины, так или иначе появлявшиеся в курсе Экология, которые должны
+быть в вашей голове.</p>
+<p>Если вы можете описать, что кроется за всеми этими понятиями, то вы
+уже в теме!</p>
+<p>Если термин вам не знаком, то ищите информацию про него, лишним не
+будет. Для этого в таблице даны ссылки на Википедию… НО! Помните, что
+Википедию пишут люди, которые могут писать и полную ерунду…</p>
+<table>
+<colgroup>
+<col width="15%" />
+<col width="42%" />
+<col width="41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Термины</th>
+<th align="left">Википедия</th>
+<th align="left">Wikipedia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">K-стратегия</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_r/K-%D0%BE%D1%82%D0%B1%D0%BE%D1%80%D0%B0">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/R/K_selection_theory#K-selection">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">r-стратегия</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/R/K_selection_theory#r-selection">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Абиогенные факторы</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Абиотические факторы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Абиотические%20факторы">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Abiotic_component">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Автотрофы</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Автотрофы">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Autotroph">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Агрессия</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Агрессивное%20поведение">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Aggression">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Адаптация</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Адаптация">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Adaptation">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Азотфиксирующие бактерии</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Азотфиксирующие%20бактерии">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Diazotroph">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Аллелопатия</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Аллелопатия">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Allelopathy">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Аменсализм</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Аменсализм">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Symbiosis#Amensalism">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Аномальная возрастная структура</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Аутотоксичность</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Autotoxicity">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Аутэкология</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Аутэкология">Wiki Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Autecology">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Бентос</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Бентос">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Benthos">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Биогенные факторы</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Биомасса</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Биомасса">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Biomass_(ecology)">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Биотические факторы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Биотические%20факторы">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Биоценоз</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Биоценоз">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Biocoenosis">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Ведущие факторы</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Вероятности перехода между когортами</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Видовое богатство</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Species_richness">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Видовое разнообразие</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Биоразнообразие">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Species_diversity">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Виоленты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Фитоценотипы">Wiki Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Витальные факторы</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Внутривидовая конкуренция</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Конкуренция">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Intraspecific_competition">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Внутривидовая кооперация</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Возрастная пирамида</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Возрастно-половая%20пирамида">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Population_pyramid">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Временная популяция</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Время обработки добычи</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Optimal_foraging_theory">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Время поиска добычи</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Optimal_foraging_theory">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Встречаемость вида</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Встречаемость">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Species_distribution">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Второстепенные факторы</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Выборочные методы оценки численности</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Mark_and_recapture">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Гемипопуляция</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wiktionary.org/wiki/hemipopulation">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Генетическая структура популяции</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Population_genetics">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Генетический полиморфизм</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Генетический%20полиморфизм">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Genetic_diversity">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Гетеротопные организмы</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Heterotroph">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Гетеротрофы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Гетеротрофы">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Heterotroph">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Гильдия</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Гильдия">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Guild_(ecology)">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Гнездовой паразитизм</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Гнездовой%20паразитизм">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Brood_parasite">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Гомойотермные организмы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Гомойотермия">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Homeothermy">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Гомология</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Гомология">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Homology_(biology)">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Градиент факторов</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Environmental_gradient">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Групповое распределение особей</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Демэкология</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Демэкология">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Population_ecology">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Детрит</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Детрит">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Detritus">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Диапазон оптимума</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Закон%20оптимума">Wiki Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Диапазон угнетения</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологические%20факторы">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Доминант сообщества</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Dominance_(ecology)">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Емкость среды</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Емкость%20среды">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Carrying_capacity">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Естественный отбор</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Естественный%20отбор">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Natural_selection">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Живая система</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Живая%20система">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Self-organization#Biology">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Зависимая популяция</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Закон Либиха</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Закон%20Либиха">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Закон Мальтуса</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Закон%20Мальтуса">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Malthusianism">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Закон Шелфорда</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Закон%20Шелфорда">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Shelford%27s_law_of_tolerance">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Зоохория</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Seed_dispersal#Animals:_epi-_and_endozoochory">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Иерархия доминирования</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Иерархия%20доминирования">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Dominance_hierarchy">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Иммиграция</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Migration_(ecology)">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Индекс Шеннона</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Мера%20разнообразия,%20индекс%20Шеннона">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Diversity_index#Shannon_index">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Интерференция</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Интерференция">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Competition_(biology)">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Классификации экологический факторов</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологические%20факторы">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Клептопаразиты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Клептопаразитизм">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Kleptoparasitism">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Ключевой вид</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Keystone_species">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Комменсалистический симбиоз</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Комменсализм">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Commensalism">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Консументы</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Консументы">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Consumer_(food_chain)">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Концепция континуума</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Растительный%20континуум">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Continuum_concept">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Коэволюция</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Коэволюция">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Coevolution">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Кривая выживания</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Survivorship_curve">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Криопротекторы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Криопротекторы">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Cryoprotectant">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Криптические виды</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Species_complex">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Купол толерантности</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Летальный диапазон</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологические%20факторы">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Лимитирующие факторы</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Limiting_factor">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Макрофаги</td>
+<td align="left"></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Macrophage">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Мальтузианская модель</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Мальтузианская%20модель%20роста">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Malthusian_growth_model">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Мальтузианский параметр</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Malthusian_growth_model">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Межвидовая конкуренция</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Конкуренция">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Interspecific_competition">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Метапопуляция</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Metapopulation">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Микропопуляция</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Микрофаги</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Мирмекофилия</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Мирмекофилия">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Myrmecophily">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Модель Лотки-Вольтерра</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Модель%20Лотки-Вольтерры">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Lotka–Volterra_equations">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Модель Ферхюльста</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Уравнение%20Ферхюльста">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Logistic_function#In_ecology:_modeling_population_growth">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Модификационная (средовая) изменчивость</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Модификационная%20изменчивость">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Phenotypic_plasticity">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Модулярные организмы</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Modularity_(biology)">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Монофаги</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Монофагия">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/List_of_feeding_behaviours#By_food_type">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Мутуалистический симбиоз</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Мутуализм">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Mutualism_(biology)">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Независимая популяция</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Нейтрализм</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Нейтрализм">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Нейтральное влияние</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Типы%20отношений%20между%20организмами">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Некрофагия</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Некрофагия">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Scavenger">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Нектон</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Нектон">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Nekton">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Норма реакции</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Норма%20реакции">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Reaction_norm">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Олигофаги</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Олигофагия">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Oligophagy">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Осмоконформеры</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Osmoconformer">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Осморегуляторы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Осморегуляция">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Osmoregulation">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Основное уравнение динамики популяции</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Отрицательное влияние</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Типы%20отношений%20между%20организмами">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Парадокс планктона</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Парадокс%20планктона">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Paradox_of_the_plankton">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Паразитический симбиоз</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Паразитизм">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Parasitism">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Паразитоиды</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Паразитоид">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Parasitoid#Definitions_and_distinctions">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Паразиты</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/паразитизм">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Parasitism">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Пастбищные хищники (grazers)</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Хищничество">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Grazing_(behaviour)">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Патиенты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Фитоценотипы">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Universal_adaptive_strategy_theory#Stress_tolerators">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Переключение пищевого предпочтения</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Перифитон</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Перифитон">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Periphyton">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Пищевое предпочтение</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Планктон</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Планктон">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Plankton">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Плейстон</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Плейстон">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Pleuston">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Плодовитость возрастных когорт</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Cohort_(statistics)">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Плотность популяции</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Плотность%20популяции">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Density_dependence">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Пойкилотермные организмы</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Пойкилотермия">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Poikilotherm">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Полиморфизм</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Полиморфизм">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Polymorphism_(biology)">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Полифаги</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Полифагия">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/List_of_feeding_behaviours#By_food_type">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Положительное влияние</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Типы%20отношений%20между%20организмами">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Полузависимая популяция</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Популяция</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Популяция">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Population">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Поселение</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Принцип Гаузе</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологическая%20ниша">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Competitive_exclusion_principle">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Приспособленность</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Приспособленность">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Fitness_(biology)">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Проективное покрытие</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Проективное%20покрытие">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Простая популяция</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Протокооперация</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Протокооперация">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Protocooperation">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Псевдопопуляция</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Pseudocopulation">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Равномерное распределение особей</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Ранжированная диета</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Реализованная ниша</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологическая%20ниша">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Realized_niche_width">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Редуценты</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Редуценты">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Decomposer">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Ресурсы</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Ресурс">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Natural_resource">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Рождаемость</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Рождаемость">Wiki Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Birth_rate">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Рудералы</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Рудералы">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ruderal_species">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Самоизреживание</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Саркофагия</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Сбалансированная диета</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Сестон</td>
+<td align="left"></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Seston">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Сигнальные факторы</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Симбиоз</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Симбиоз">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Symbiosis">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Симбионт</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Симбиоз">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Symbiosis">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Синойкия</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Синойкия">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Синэкология</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Синэкология">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Community_(ecology)">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Система</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Система">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/System">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Случайное распределение особей</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Смертность</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Смертность">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Mortality_rate">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Сообщество</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Community_(ecology)">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Среда I порядка</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Среда II поряка</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Стенобионты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Стенобионты">Wiki Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Сублетальные хищники</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Температурно-зависимое определение пола</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Определение%20пола">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Sex-determination_system#Temperature-dependent">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Теория оптимального фуражирования</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Теорема%20оптимального%20фуражирования">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Optimal_foraging_theory">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Территориальное поведение</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Территориальные%20животные">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Territory_(animal)">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Территория популяции</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Тотальный подсчет</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Трофическая сеть</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Трофическая%20сеть">Wiki Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Food_web">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Трофическая цепь</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Трофическая%20цепь">Wiki Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Food_chain">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Трофность</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Трофность">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Унитарные организмы</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Colony_(biology)">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Уровень благосостояния организма</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Уровень%20благосостояния">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Условия</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Условие">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Фазовый портрет</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Phase_space#Phase_plot">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Факторы, зависящие от плотности популяции</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Density_dependence#Positive_density-dependence">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Факторы, не зависящие от плотности популяции</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Density_dependence#Negative_density-dependence">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Фенотипическая пластичность</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Phenotypic_plasticity">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Фенотипический полиморфизм</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Polymorphism_(biology)#Ecology">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Фотопериодизм</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Фотопериодизм">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Photoperiodism">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Фундаментальная ниша</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологическая%20ниша">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ecological_niche">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Хаотическая система</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Теория%20хаоса">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Chaos_theory#Biology">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Хищники</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Хищники">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Predation">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Хищники-генералисты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Виды-генералисты%20и%20специалисты">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Predation">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Хищники-специалисты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Виды-генералисты%20и%20специалисты">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Predation">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Хозяин</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Host_(biology)">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Хромосомное определение пола</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Хромосомное%20определение%20пола">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Sex-determination_system#Chromosomal_systems">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Численность популяции</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Population_size">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Эврибионты</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Эврибионты">Wiki
+Ru</a></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Эдификатор</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Эдификатор">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ecosystem_engineer">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Экологическая диверсификация</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ecosystem_diversity#Ecosystem_diversity_as_a_result_of_evolutionary_pressure">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Экологическая лицензия</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Environmental_certification">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Экологическая ниша по Хатчинсону</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологическая%20ниша">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ecological_niche#Hutchinsonian_niche">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Экологическая ниша по Элтону</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологическая%20ниша">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Eltonian_niche">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Экологический фактор</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Экологические%20факторы">Wiki
+Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Environmental_factor">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Экосистема</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Экосистема">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Ecosystem">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Экосистемный инженер</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ecosystem_engineer">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Экотипы</td>
+<td align="left"><a href="https://ru.wikipedia.org/wiki/Экотип">Wiki
+Ru</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Ecotype">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Эксплеренты</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Фитоценотипы">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Ruderal_species">Wiki En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Эксплуатационная конкуренция</td>
+<td align="left"></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Competition">Wiki En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Эктотермы</td>
+<td align="left"></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Ectotherm">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Эмиграция</td>
+<td align="left"></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Emigration">Wiki
+En</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Эндотермы</td>
+<td align="left"></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/Endotherm">Wiki
+En</a></td>
+</tr>
+<tr class="even">
+<td align="left">Эффект Олли</td>
+<td align="left"><a
+href="https://ru.wikipedia.org/wiki/Эффект%20Олли">Wiki Ru</a></td>
+<td align="left"><a
+href="https://en.wikipedia.org/wiki/Allee_effecthttps://en.wikipedia.org/wiki/Allee_effect">Wiki
+En</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
