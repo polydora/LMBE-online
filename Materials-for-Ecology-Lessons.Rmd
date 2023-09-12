@@ -1,0 +1,57 @@
+---
+title: "Презентации по курсу Экология"
+author: "В. М. Хайтов"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Презентации
+
+- [**Аутэкология**](Presentations/Ecology/Lecture 2 Аутэкология .pdf)
+
+- [**Демэкология**](Presentations/Ecology/Lecture 3 Популяция и ее структура.pdf)
+
+- [**Динамика популяции**](Presentations/Ecology/Lecture 4 Динамика популяции.pdf)
+
+- [**Взаимоотношения организмов**](Presentations/Ecology/Lecture 6 Классификация отношений.pdf)
+
+- [**Конкурентные отношения**](Presentations/Ecology/Lecture 7 Конкуренция.pdf)
+
+- [**Трофические связи**](Presentations/Ecology/Lecture 8 Трофические связи.pdf)
+
+- [**Симбиозы**](Presentations/Ecology/Lecture 9 Симбиозы.pdf)
+
+- [**Структура сообщества**](Presentations/Ecology/Lecture 10 Структура сообщества.pdf)
+
+
+
+## Глоссарий
+
+термины, так или иначе появлявшиеся в курсе Экология, которые должны быть в вашей голове.
+
+Если вы можете описать, что кроется за всеми этими понятиями, то вы уже в теме!
+
+Если термин вам не знаком, то ищите информацию про него, лишним не будет. Для этого в таблице даны ссылки на Википедию... НО! Помните, что Википедию пишут люди, которые могут писать и полную ерунду...
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(readxl)
+terms <- read_excel("data/glossary_wiki_short.xlsx", na =  "NA")
+
+terms$Wiki_ru <- ifelse(is.na(terms$Wiki_ru), "", paste("[Wiki Ru]","(",terms$Wiki_ru,")", sep = ""))
+
+terms$Wiki_en <- ifelse(is.na(terms$Wiki_en), "", paste("[Wiki En]","(",terms$Wiki_en,")", sep = ""))
+
+# 
+# 
+# terms <- as.matrix(terms)
+# dim(terms) <- c(95, 3)
+# terms <- as.data.frame(terms)
+# 
+kable(terms, col.names = c("Термины", "Википедия", "Wikipedia"))
+```
