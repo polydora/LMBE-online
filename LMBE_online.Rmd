@@ -50,6 +50,9 @@ pre { /* Code block - determines code spacing between lines */
 
 # **Материалы занятий 2023-2024 учебного года**
 
+
+- [Домашне задание для 1 года от 16.12.2023. "**Учимся распознавать фейки**"](https://docs.google.com/forms/d/e/1FAIpQLScEn_Ro5UXAwxJ65qalKMEVnDulXN2QWxOzRFDQa6u6x2emlQ/viewform?usp=sf_link)
+
 - [**Список терминов, которыми должен владеть уважающий себя учащийся 2го года жизни**](data/Термины за 1 год.pdf)
 
 <br>
